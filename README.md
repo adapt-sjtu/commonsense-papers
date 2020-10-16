@@ -1,5 +1,5 @@
 # commonsense-papers
-Must-read papers (with bibtex) on commonsense knowledge and others resources and tutorials
+Must-read papers (with [bibtex](commonsense-papers.bib)) on commonsense knowledge and others resources and tutorials
 
 Contributed by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde)) and Siyu Ren
 
