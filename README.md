@@ -5,15 +5,34 @@ Contributed by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde))
 
 Our list may not be complete. We will keep adding papers and improving it. Any suggestions and PRs are welcomed!
 
+<h2 id="toc">Table of Contents</h2>
+
+- [commonsense-papers](#commonsense-papers)
+  - [Tutorial](#tutorial)
+  - [Resources and Evaluation](#resources-and-evaluation)
+    - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
+    - [Related Knowledge Bases](#related-knowledge-bases)
+    - [Datasets and Benchmarks](#datasets-and-benchmarks)
+  - [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
+  - [Applications](#applications)
+    - [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
+    - [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
+    - [Generation](#generation)
+    - [Question Answering (QA)](#question-answering-qa)
+
 ## Tutorial
 
 **T6: Commonsense Reasoning for Natural Language Processing.** ACL 2020. [slides and video](https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing) 
 
 *Antoine Bosselut, Dan Roth, Maarten Sap, Vered Shwartz, Yejin Choi*
 
-## Resources
+[back to table of contents](#toc)
 
-### Mainly Commonsense
+## Resources and Evaluation
+
+### Commonsense Knowledge Bases/Models
+
+**CYC: Toward programs with common sense** [data(OpenCyc)](https://github.com/asanchez75/opencyc) [homepage](https://www.cyc.com/)
 
 **ConceptNet 5.5: an open multilingual graph of general knowledge** AAAI 2017. [paper](https://arxiv.org/pdf/1612.03975) [homepage](https://conceptnet.io/)
 
@@ -35,7 +54,19 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Julien Romero, Simon Razniewski, Koninika Pal, Jeff Z. Pan, Archit Sakhadeo, Gerhard Weikum*
 
-### Related
+**TransOMCS: From Linguistic Graphs to Commonsense Knowledge**  IJCAI 2020 [paper](https://arxiv.org/pdf/2005.00206) [homepage](https://hkust-knowcomp.github.io/ASER/) [code](https://github.com/HKUST-KnowComp/TransOMCS)
+
+*Hongming Zhang, Daniel Khashabi, Yangqiu Song, Dan Roth*
+
+**Paragraph-Level Commonsense Transformers with Recurrent Memory** (PARA-COMeT) arxiv 2020 [paper](https://arxiv.org/pdf/2010.01486)
+
+*Saadia Gabriel, Chandra Bhagavatula, Vered Shwartz, Ronan Le Bras, Maxwell Forbes, Yejin Choi*
+
+**COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs** arxiv 2020 [paper](https://arxiv.org/pdf/2010.05953.pdf)
+
+*Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi*
+
+### Related Knowledge Bases
 
 **WordNet: A Lexical Database for English** Communications of the ACM Vol. 38, No. 11: 39-41. 1995. [homepage] (https://wordnet.princeton.edu/)
 
@@ -45,21 +76,55 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell*
 
-## Knowledge Mining (Knowledge base completion)
+**DBpedia – A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia**. Semantic Web 1 (2012) [paper](http://svn.aksw.org/papers/2013/SWJ_DBpedia/public.pdf) [homepage](https://wiki.dbpedia.org/)
+
+*Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas, Pablo N. Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick van Kleef, Sören Auer, Christian Bizer*
+
+### Datasets and Benchmarks
+
+**ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/)
+
+*Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi*
+
+**Reasoning about Goals, Steps, and Temporal Ordering with WikiHow** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.07690) [code](https://github.com/zharry29/wikihow-goal-step)
+
+**CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa)
+
+*Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
+
+[back to table of contents](#toc)
+
+## Knowledge Mining (Knowledge Base Completion)
+
+**Automatic Extraction of Commonsense LocatedNear Knowledge** ACL 2018 [paper](https://arxiv.org/pdf/1711.04204) [code](https://github.com/adapt-sjtu/commonsense-locatednear)
 
 **Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://www.aclweb.org/anthology/D19-1109.pdf)
 
 *Joe Davison, Joshua Feldman, Alexander Rush*
 
+**Commonsense Knowledge Base Completion with Structural and Semantic Context** AAAI 2020 [paper](https://arxiv.org/pdf/1910.02915) [code](https://github.com/allenai/commonsense-kg-completion)
 
+*Chaitanya Malaviya, Chandra Bhagavatula, Antoine Bosselut, Yejin Choi*
+
+**Temporal Common Sense Acquisition with Minimal Supervision** ACL 2020 [paper](https://arxiv.org/pdf/2005.04304.pdf)
+
+[back to table of contents](#toc)
 
 ## Applications
 
-### natural language inference (NLI)
+### natural language inference (NLI) and commonsense reasoning (CSR)
 **Neural natural language inference models enhanced with external knowledge** ACL 2018 [paper](https://arxiv.org/abs/1711.04289) [code](https://github.com/lukecq1231/kim)
 - resource: WordNet
 
 *Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei*
+
+**Contrastive Self-Supervised Learning for Commonsense Reasoning** ACL 2020 [paper](https://arxiv.org/pdf/2005.00669.pdf) [code](https://github.com/SAP-samples/acl2020-commonsense/)
+
+*Tassilo Klein, Moin Nabi*
+
+**Do Language Embeddings Capture Scales?** EMNLP Findings 2020 [paper](https://arxiv.org/pdf/2010.05345) [code](https://github.com/google-research-datasets/numbert)
+
+*Xikun Zhang, Deepak Ramachandran, Ian Tenney, Yanai Elazar, Dan Roth*
 
 ### Machine Reading Comprehension (MRC)
 
@@ -75,6 +140,11 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Sixing Wu, Ying Li, Dawei Zhang, Yang Zhou, Zhonghai Wu*
 
+
+**Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.11692.pdf)
+
+*Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu, Minlie Huang*
+
 ### Question Answering (QA)
 
 **Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering** arxiv 2019 [paper](https://arxiv.org/pdf/1911.03876)
@@ -82,9 +152,13 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Antoine Bosselut, Yejin Choi*
 
+**Adversarial Training for Commonsense Inference** ACL2020 RepL4NLP workshop [paper](https://arxiv.org/pdf/2005.08156)
+
+*Lis Pereira, Xiaodong Liu, Fei Cheng, Masayuki Asahara, Ichiro Kobayashi*
+
 **Unsupervised Commonsense Question Answering with Self-Talk** EMNLP 2020 [paper](https://arxiv.org/pdf/2004.05483) [code](https://github.com/vered1986/self_talk)
 - resource: ConceptNet, COMET, Google N-grams
 
 *Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi*
 
-
+[back to table of contents](#toc)
