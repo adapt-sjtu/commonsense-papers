@@ -31,6 +31,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 ## Resources and Evaluation
 
 ### Commonsense Knowledge Bases/Models
+<br/>
 
 **CYC: Toward programs with common sense** [data(OpenCyc)](https://github.com/asanchez75/opencyc) [homepage](https://www.cyc.com/)
 
@@ -67,6 +68,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 *Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi*
 
 ### Related Knowledge Bases
+<br/>
 
 **WordNet: A Lexical Database for English** Communications of the ACM Vol. 38, No. 11: 39-41. 1995. [homepage] (https://wordnet.princeton.edu/)
 
@@ -81,12 +83,15 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 *Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas, Pablo N. Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick van Kleef, Sören Auer, Christian Bizer*
 
 ### Datasets and Benchmarks
+<br/>
 
 **ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/)
 
 *Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi*
 
 **Reasoning about Goals, Steps, and Temporal Ordering with WikiHow** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.07690) [code](https://github.com/zharry29/wikihow-goal-step)
+
+*Qing Lyu, Li Zhang, Chris Callison-Burch*
 
 **CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa)
 
@@ -98,6 +103,8 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 **Automatic Extraction of Commonsense LocatedNear Knowledge** ACL 2018 [paper](https://arxiv.org/pdf/1711.04204) [code](https://github.com/adapt-sjtu/commonsense-locatednear)
 
+*Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu*
+
 **Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://www.aclweb.org/anthology/D19-1109.pdf)
 
 *Joe Davison, Joshua Feldman, Alexander Rush*
@@ -108,11 +115,15 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 **Temporal Common Sense Acquisition with Minimal Supervision** ACL 2020 [paper](https://arxiv.org/pdf/2005.04304.pdf)
 
+*Ben Zhou, Qiang Ning, Daniel Khashabi, Dan Roth*
+
 [back to table of contents](#toc)
 
 ## Applications
 
 ### natural language inference (NLI) and commonsense reasoning (CSR)
+<br/>
+
 **Neural natural language inference models enhanced with external knowledge** ACL 2018 [paper](https://arxiv.org/abs/1711.04289) [code](https://github.com/lukecq1231/kim)
 - resource: WordNet
 
@@ -127,6 +138,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 *Xikun Zhang, Deepak Ramachandran, Ian Tenney, Yanai Elazar, Dan Roth*
 
 ### Machine Reading Comprehension (MRC)
+<br/>
 
 **Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1226.pdf) [code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET)
 - resource: WordNet, NELL 
@@ -134,6 +146,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 *An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li*
 
 ### Generation
+<br/>
 
 **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** ACL 2020 [paper](https://www.aclweb.org/anthology/2020.acl-main.515.pdf) [code](https://github.com/pku-orangecat/ACL2020-ConKADI)
 - resource: ConceptNet
@@ -146,6 +159,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 *Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu, Minlie Huang*
 
 ### Question Answering (QA)
+<br/>
 
 **Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering** arxiv 2019 [paper](https://arxiv.org/pdf/1911.03876)
 - resource: COMET
