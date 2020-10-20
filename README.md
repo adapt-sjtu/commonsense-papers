@@ -8,7 +8,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
-  - [Tutorial](#tutorial)
+  - [Tutorial and Survey](#tutorial-and-survey)
   - [Resources and Evaluation](#resources-and-evaluation)
     - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
     - [Related Knowledge Bases](#related-knowledge-bases)
@@ -20,7 +20,11 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
     - [Generation](#generation)
     - [Question Answering (QA)](#question-answering-qa)
 
-## Tutorial
+## Tutorial and Survey
+
+**Recent Advances in Natural Language Inference: A Survey of Benchmarks, Resources, and Approaches** arxiv 2019 [paper](https://arxiv.org/pdf/1904.01172)
+
+**
 
 **T6: Commonsense Reasoning for Natural Language Processing.** ACL 2020. [slides and video](https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing) 
 
@@ -85,6 +89,14 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 ### Datasets and Benchmarks
 <br/>
 
+**CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa)
+
+*Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
+
+**From Recognition to Cognition: Visual Commonsense Reasoning** CVPR 2019 [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.pdf) [code](https://github.com/rowanz/r2c/) [homepage](http://visualcommonsense.com/)
+
+*Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi*
+
 **ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/)
 
 *Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi*
@@ -93,9 +105,6 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Qing Lyu, Li Zhang, Chris Callison-Burch*
 
-**CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa)
-
-*Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
 
 [back to table of contents](#toc)
 
@@ -155,6 +164,7 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 
 **Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.11692.pdf)
+- resource: ConceptNet
 
 *Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu, Minlie Huang*
 
