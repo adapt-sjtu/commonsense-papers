@@ -1,18 +1,20 @@
 # commonsense-papers
-Must-read papers (with [bibtex](commonsense-papers.bib)) on commonsense knowledge and others resources and tutorials
+Must-read papers on commonsense knowledge and others resources and tutorials
 
-Contributed by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde)) and Siyu Ren
+Contributed by [ADAPTers](https://adapt.seiee.sjtu.edu.cn/) (major efforts by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde)), Siyu Ren, Hongru Huang, Zelin Zhou, Yanzhu Guo)
 
 Our list may not be complete. We will keep adding papers and improving it. Any suggestions and PRs are welcomed!
 
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
+  - [Statistics](#statistics)
   - [Tutorial and Survey](#tutorial-and-survey)
   - [Resources and Evaluation](#resources-and-evaluation)
     - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
     - [Related Knowledge Bases](#related-knowledge-bases)
     - [Datasets and Benchmarks](#datasets-and-benchmarks)
+    - [Evaluation and Probing](#evaluation-and-probing)
   - [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
   - [Applications](#applications)
     - [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
@@ -20,11 +22,125 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
     - [Generation](#generation)
     - [Question Answering (QA)](#question-answering-qa)
 
+## Statistics
+
+**Research Keywords**
+
+Non-stopping words in title, indicating the hot topics in this field.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>reasoning</th>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>language</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>question</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>graph</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>natural</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>model</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>generation</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>answering</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>inference</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>transformer</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+**Researchers**
+
+Most active researchers in this field
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Yejin Choi</th>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>Chandra Bhagavatula</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Bill Yuchen Lin</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Antoine Bosselut</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Ronan Le Bras</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Dan Roth</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Xiang Ren</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Hannah Rashkin</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Chaitanya Malaviya</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Vered Shwartz</th>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Tutorial and Survey
 
 **Recent Advances in Natural Language Inference: A Survey of Benchmarks, Resources, and Approaches** arxiv 2019 [paper](https://arxiv.org/pdf/1904.01172)
 
-**
+*Shane Storks, Qiaozi Gao, Joyce Y. Chai*
 
 **T6: Commonsense Reasoning for Natural Language Processing.** ACL 2020. [slides and video](https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing) 
 
@@ -71,6 +187,10 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi*
 
+**CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP 2020 Findings [paper](https://arxiv.org/pdf/1911.03705) [homepage](https://inklab.usc.edu/CommonGen/index.html)
+
+*Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren*
+
 ### Related Knowledge Bases
 <br/>
 
@@ -97,14 +217,37 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 
 *Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi*
 
+**oLMpics -- On what Language Model Pre-training Captures** arxiv 2019 [paper](https://arxiv.org/pdf/1912.13283.pdf) [code](https://github.com/alontalmor/oLMpics) [homepage](https://github.com/alontalmor/oLMpics)
+
+*Alon Talmor, Yanai Elazar, Yoav Goldberg, Jonathan Berant*
+
 **ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/)
 
 *Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi*
+
+**PIQA: Reasoning about Physical Commonsense in Natural Language** AAAI 2020 [paper](https://arxiv.org/pdf/1911.11641.pdf) [homepage](https://yonatanbisk.com/piqa/)
+
+*Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi*
 
 **Reasoning about Goals, Steps, and Temporal Ordering with WikiHow** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.07690) [code](https://github.com/zharry29/wikihow-goal-step)
 
 *Qing Lyu, Li Zhang, Chris Callison-Burch*
 
+**Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00683.pdf) [homepage](https://inklab.usc.edu/NumerSense/)
+
+*Bill Yuchen Lin, Seyeon Lee, Rahul Khanna and Xiang Ren*
+
+[back to table of contents](#toc)
+
+### Evaluation and Probing
+
+**Joint Reasoning for Multi-Faceted Commonsense Knowledge** AKBC 2020 [paper](https://arxiv.org/pdf/2001.04170.pdf) [homepage](https://dice.mpi-inf.mpg.de/)
+
+*Yohan Chalier, Simon Razniewski, Gerhard Weikum*
+
+**Does BERT Solve Commonsense Task via Commonsense Knowledge?** arxiv 2020 [paper](https://arxiv.org/pdf/2008.03945)
+
+*Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang*
 
 [back to table of contents](#toc)
 
@@ -117,6 +260,10 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 **Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://www.aclweb.org/anthology/D19-1109.pdf)
 
 *Joe Davison, Joshua Feldman, Alexander Rush*
+
+**Language Models as Knowledge Bases?** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.01066.pdf) [code](https://github.com/facebookresearch/LAMA)
+
+*Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel*
 
 **Commonsense Knowledge Base Completion with Structural and Semantic Context** AAAI 2020 [paper](https://arxiv.org/pdf/1910.02915) [code](https://github.com/allenai/commonsense-kg-completion)
 
@@ -145,6 +292,10 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 **Do Language Embeddings Capture Scales?** EMNLP Findings 2020 [paper](https://arxiv.org/pdf/2010.05345) [code](https://github.com/google-research-datasets/numbert)
 
 *Xikun Zhang, Deepak Ramachandran, Ian Tenney, Yanai Elazar, Dan Roth*
+
+**Differentiable Open-Ended Commonsense Reasoning** arxiv 2020 [paper](https://arxiv.org/pdf/2010.14439)
+
+*Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen*
 
 ### Machine Reading Comprehension (MRC)
 <br/>
@@ -184,5 +335,9 @@ Our list may not be complete. We will keep adding papers and improving it. Any s
 - resource: ConceptNet, COMET, Google N-grams
 
 *Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi*
+
+**Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00646) [code](https://github.com/INK-USC/MHGRN)
+
+*Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, Xiang Ren*
 
 [back to table of contents](#toc)
