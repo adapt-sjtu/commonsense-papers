@@ -13,7 +13,7 @@ Plan to include statistics of
 
 author_cnt = Counter()
 kwds_cnt = Counter()
-my_stopwords = {"commonsense", "knowledge"}
+my_stopwords = {"commonsense", "knowledge", "natural", "language"}
 with open("README.md", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
@@ -31,6 +31,7 @@ author_cnt = pd.DataFrame(pd.Series(author_cnt).sort_values(ascending=False), co
 
 print("HTML")
 print(kwds_cnt.head(10).to_html())
+print("\n-----\n")
 print(author_cnt.head(10).to_html())
 
 print("Results (for human read)")

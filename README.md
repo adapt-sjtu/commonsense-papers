@@ -38,11 +38,7 @@ Non-stopping words in title, indicating the hot topics in this field.
   <tbody>
     <tr>
       <th>reasoning</th>
-      <td>9</td>
-    </tr>
-    <tr>
-      <th>language</th>
-      <td>8</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>question</th>
@@ -53,11 +49,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>natural</th>
+      <th>model</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>pre</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>model</th>
+      <th>inference</th>
       <td>3</td>
     </tr>
     <tr>
@@ -69,11 +69,11 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>3</td>
     </tr>
     <tr>
-      <th>inference</th>
+      <th>multi</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>transformer</th>
+      <th>neural</th>
       <td>2</td>
     </tr>
   </tbody>
@@ -95,14 +95,14 @@ Most active researchers in this field
   <tbody>
     <tr>
       <th>Yejin Choi</th>
-      <td>11</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>Chandra Bhagavatula</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Bill Yuchen Lin</th>
+      <th>Ronan Le Bras</th>
       <td>5</td>
     </tr>
     <tr>
@@ -110,8 +110,8 @@ Most active researchers in this field
       <td>5</td>
     </tr>
     <tr>
-      <th>Ronan Le Bras</th>
-      <td>4</td>
+      <th>Bill Yuchen Lin</th>
+      <td>5</td>
     </tr>
     <tr>
       <th>Dan Roth</th>
@@ -126,7 +126,7 @@ Most active researchers in this field
       <td>3</td>
     </tr>
     <tr>
-      <th>Chaitanya Malaviya</th>
+      <th>Maarten Sap</th>
       <td>3</td>
     </tr>
     <tr>
