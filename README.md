@@ -1,9 +1,11 @@
 # commonsense-papers
 Must-read papers on commonsense knowledge and others resources and tutorials
 
+We aim to select the most representative and innovative papers in the research field of **commonsense knowledge**, and provide taxonomy/classification as well as statistics of these papers to give a quick overview of the field and help focused reading.
+
 Contributed by [ADAPTers](https://adapt.seiee.sjtu.edu.cn/) (major efforts by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde)), Siyu Ren, Hongru Huang, Zelin Zhou, Yanzhu Guo)
 
-Our list may not be complete. We will keep adding papers and improving it. Any suggestions and PRs are welcomed!
+Our list may not be complete. We will keep adding papers and improving it. [Contributions](CONTRIBUTING.md) are welcomed!
 
 <h2 id="toc">Table of Contents</h2>
 
