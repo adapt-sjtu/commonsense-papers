@@ -23,6 +23,7 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
     - [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
     - [Generation](#generation)
     - [Question Answering (QA)](#question-answering-qa)
+    - [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
 
 ## Statistics
 
@@ -40,10 +41,10 @@ Non-stopping words in title, indicating the hot topics in this field.
   <tbody>
     <tr>
       <th>reasoning</th>
-      <td>10</td>
+      <td>12</td>
     </tr>
     <tr>
-      <th>question</th>
+      <th>model</th>
       <td>5</td>
     </tr>
     <tr>
@@ -51,15 +52,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>model</th>
-      <td>4</td>
+      <th>question</th>
+      <td>5</td>
     </tr>
     <tr>
       <th>pre</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>inference</th>
+      <th>reason</th>
       <td>3</td>
     </tr>
     <tr>
@@ -67,16 +68,16 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>3</td>
     </tr>
     <tr>
-      <th>answering</th>
-      <td>3</td>
-    </tr>
-    <tr>
       <th>multi</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>neural</th>
-      <td>2</td>
+      <th>answering</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>story</th>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
@@ -97,18 +98,18 @@ Most active researchers in this field
   <tbody>
     <tr>
       <th>Yejin Choi</th>
-      <td>12</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>Chandra Bhagavatula</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Ronan Le Bras</th>
-      <td>5</td>
+      <th>Antoine Bosselut</th>
+      <td>7</td>
     </tr>
     <tr>
-      <th>Antoine Bosselut</th>
+      <th>Ronan Le Bras</th>
       <td>5</td>
     </tr>
     <tr>
@@ -120,23 +121,60 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
-      <th>Xiang Ren</th>
-      <td>3</td>
+      <th>Maarten Sap</th>
+      <td>4</td>
     </tr>
     <tr>
       <th>Hannah Rashkin</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>Maarten Sap</th>
-      <td>3</td>
+      <td>4</td>
     </tr>
     <tr>
       <th>Vered Shwartz</th>
       <td>3</td>
     </tr>
+    <tr>
+      <th>Xiang Ren</th>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>
+
+**Venues**
+
+Just an estimation. May not be precise as arxiv papers may appear in other venues in the future.
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ACL</th>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>EMNLP</th>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>arxiv</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>AAAI</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>NAACL</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
 
 ## Tutorial and Survey
 
@@ -157,7 +195,11 @@ Most active researchers in this field
 
 **CYC: Toward programs with common sense** [data(OpenCyc)](https://github.com/asanchez75/opencyc) [homepage](https://www.cyc.com/)
 
-**ConceptNet 5.5: an open multilingual graph of general knowledge** AAAI 2017. [paper](https://arxiv.org/pdf/1612.03975) [homepage](https://conceptnet.io/)
+**Commonsense causal reasoning between short texts** (CausalNet) KR 2016 [paper](http://www.cs.sjtu.edu.cn/~kzhu/papers/kzhu-copa.pdf) [homepage](https://adapt.seiee.sjtu.edu.cn/project_causal.html) [code](https://github.com/cs-zyluo/CausalNet)
+
+*Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-won Hwang, Zhongyuan Wang*
+
+**ConceptNet 5.5: an open multilingual graph of general knowledge** AAAI 2017. [paper](https://arxiv.org/pdf/1612.03975) [homepage](https://conceptnet.io/) [repo](https://github.com/commonsense/conceptnet5) [embedding(ConceptNet Numberbatch) repo](https://github.com/commonsense/conceptnet-numberbatch)
 
 *Robyn Speer, Joshua Chin, Catherine Havasi*
 
@@ -211,6 +253,18 @@ Most active researchers in this field
 ### Datasets and Benchmarks
 <br/>
 
+**A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories** (Story Cloze Test) NAACL 2016 [paper](https://www.aclweb.org/anthology/N16-1098.pdf) [homepage](https://cs.rochester.edu/nlp/rocstories/)
+
+*Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen*
+
+**Modeling Naive Psychology of Characters in Simple Commonsense Stories** ACL 2018 [paper](https://arxiv.org/pdf/1805.06533) [homepage](https://uwnlp.github.io/storycommonsense/)
+
+*Hannah Rashkin, Antoine Bosselut, Maarten Sap, Kevin Knight, Yejin Choi*
+
+**Reasoning about Actions and State Changes by Injecting Commonsense Knowledge** (ProPara) EMNLP 2018 [paper](https://arxiv.org/pdf/1808.10012) [code](https://github.com/allenai/propara)
+
+*Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, Antoine Bosselut, Peter Clark*
+
 **CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa)
 
 *Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
@@ -242,6 +296,10 @@ Most active researchers in this field
 [back to table of contents](#toc)
 
 ### Evaluation and Probing
+
+**Reporting Bias and Knowledge Acquisition** AKBC 2013 [paper](https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=27832&itemFileId=142662)
+
+*Jonathan Gordon, Benjamin Van Durme*
 
 **Joint Reasoning for Multi-Faceted Commonsense Knowledge** AKBC 2020 [paper](https://arxiv.org/pdf/2001.04170.pdf) [homepage](https://dice.mpi-inf.mpg.de/)
 
@@ -287,6 +345,11 @@ Most active researchers in this field
 
 *Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei*
 
+**Incorporating Structured Commonsense Knowledge in Story Completion** AAAI 2019 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/download/5183/5055)
+- resource: ConceptNet Numberbatch
+
+*Jiaao Chen, Jianshu Chen, Zhou Yu*
+
 **Contrastive Self-Supervised Learning for Commonsense Reasoning** ACL 2020 [paper](https://arxiv.org/pdf/2005.00669.pdf) [code](https://github.com/SAP-samples/acl2020-commonsense/)
 
 *Tassilo Klein, Moin Nabi*
@@ -329,7 +392,7 @@ Most active researchers in this field
 
 *Antoine Bosselut, Yejin Choi*
 
-**Adversarial Training for Commonsense Inference** ACL2020 RepL4NLP workshop [paper](https://arxiv.org/pdf/2005.08156)
+**Adversarial Training for Commonsense Inference** ACL 2020 RepL4NLP workshop [paper](https://arxiv.org/pdf/2005.08156)
 
 *Lis Pereira, Xiaodong Liu, Fei Cheng, Masayuki Asahara, Ichiro Kobayashi*
 
@@ -341,5 +404,13 @@ Most active researchers in this field
 **Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00646) [code](https://github.com/INK-USC/MHGRN)
 
 *Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, Xiang Ren*
+
+### Vision, Robotics, Multimodal, Grounding and Speech
+
+<br/>
+
+**Enabling Robots to Understand Incomplete Natural Language Instructions Using Commonsense Reasoning** ICRA 2020 [paper](https://arxiv.org/pdf/1904.12907)
+
+*Haonan Chen; Hao Tan; Alan Kuntz; Mohit Bansal; Ron Alterovitz*
 
 [back to table of contents](#toc)
