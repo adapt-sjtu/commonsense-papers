@@ -27,10 +27,13 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 
 ## Statistics
 
+Total papers in this repo: <anchor id="cnt">50</anchor> .
+
 **Research Keywords**
 
 Non-stopping words in title, indicating the hot topics in this field.
 
+<anchor id="keyword">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -44,11 +47,11 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>12</td>
     </tr>
     <tr>
-      <th>model</th>
+      <th>graph</th>
       <td>5</td>
     </tr>
     <tr>
-      <th>graph</th>
+      <th>model</th>
       <td>5</td>
     </tr>
     <tr>
@@ -56,11 +59,11 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>pre</th>
+      <th>inference</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>reason</th>
+      <th>multi</th>
       <td>3</td>
     </tr>
     <tr>
@@ -68,7 +71,7 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>3</td>
     </tr>
     <tr>
-      <th>multi</th>
+      <th>pre</th>
       <td>3</td>
     </tr>
     <tr>
@@ -81,6 +84,7 @@ Non-stopping words in title, indicating the hot topics in this field.
     </tr>
   </tbody>
 </table>
+</anchor>
 
 <br/>
 
@@ -88,6 +92,7 @@ Non-stopping words in title, indicating the hot topics in this field.
 
 Most active researchers in this field
 
+<anchor id="researcher">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -138,11 +143,13 @@ Most active researchers in this field
     </tr>
   </tbody>
 </table>
+</anchor>
 
 **Venues**
 
 Just an estimation. May not be precise as arxiv papers may appear in other venues in the future.
 
+<anchor id="venue">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -173,6 +180,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
     </tr>
   </tbody>
 </table>
+</anchor>
 
 <br/>
 
@@ -246,7 +254,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell*
 
-**DBpedia – A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia**. Semantic Web 1 (2012) [paper](http://svn.aksw.org/papers/2013/SWJ_DBpedia/public.pdf) [homepage](https://wiki.dbpedia.org/)
+**DBpedia – A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia**. Semantic Web 2012 [paper](http://svn.aksw.org/papers/2013/SWJ_DBpedia/public.pdf) [homepage](https://wiki.dbpedia.org/)
 
 *Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas, Pablo N. Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick van Kleef, Sören Auer, Christian Bizer*
 
