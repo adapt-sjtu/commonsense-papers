@@ -27,7 +27,7 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">50</anchor> .
+Total papers in this repo: <anchor id="cnt">52</anchor> .
 
 **Research Keywords**
 
@@ -59,19 +59,19 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>inference</th>
-      <td>3</td>
-    </tr>
-    <tr>
       <th>multi</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>generation</th>
+      <th>pre</th>
       <td>3</td>
     </tr>
     <tr>
-      <th>pre</th>
+      <th>machine</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>reason</th>
       <td>3</td>
     </tr>
     <tr>
@@ -106,11 +106,11 @@ Most active researchers in this field
       <td>13</td>
     </tr>
     <tr>
-      <th>Chandra Bhagavatula</th>
+      <th>Antoine Bosselut</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Antoine Bosselut</th>
+      <th>Chandra Bhagavatula</th>
       <td>7</td>
     </tr>
     <tr>
@@ -175,7 +175,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
       <td>5</td>
     </tr>
     <tr>
-      <th>NAACL</th>
+      <th>CVPR</th>
       <td>2</td>
     </tr>
   </tbody>
@@ -268,6 +268,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Modeling Naive Psychology of Characters in Simple Commonsense Stories** ACL 2018 [paper](https://arxiv.org/pdf/1805.06533) [homepage](https://uwnlp.github.io/storycommonsense/)
 
 *Hannah Rashkin, Antoine Bosselut, Maarten Sap, Kevin Knight, Yejin Choi*
+
+**SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge** SemEval 2018 [paper](https://www.aclweb.org/anthology/S18-1119.pdf)
+
+*Simon Ostermann, Michael Roth, Ashutosh Modi, Stefan Thater, Manfred Pinkal*
 
 **Reasoning about Actions and State Changes by Injecting Commonsense Knowledge** (ProPara) EMNLP 2018 [paper](https://arxiv.org/pdf/1808.10012) [code](https://github.com/allenai/propara)
 
@@ -420,5 +424,9 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Enabling Robots to Understand Incomplete Natural Language Instructions Using Commonsense Reasoning** ICRA 2020 [paper](https://arxiv.org/pdf/1904.12907)
 
 *Haonan Chen; Hao Tan; Alan Kuntz; Mohit Bansal; Ron Alterovitz*
+
+**Visual Commonsense R-CNN** CVPR 2020 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Visual_Commonsense_R-CNN_CVPR_2020_paper.pdf) [code](https://github.com/Wangt-CN/VC-R-CNN)
+
+*Tan Wang, Jianqiang Huang, Hanwang Zhang, Qianru Sun*
 
 [back to table of contents](#toc)
