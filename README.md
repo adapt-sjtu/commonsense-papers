@@ -27,7 +27,7 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">52</anchor> .
+Total papers in this repo: <anchor id="cnt">55</anchor> .
 
 **Research Keywords**
 
@@ -47,11 +47,11 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>12</td>
     </tr>
     <tr>
-      <th>graph</th>
+      <th>model</th>
       <td>5</td>
     </tr>
     <tr>
-      <th>model</th>
+      <th>graph</th>
       <td>5</td>
     </tr>
     <tr>
@@ -59,11 +59,19 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>multi</th>
-      <td>3</td>
+      <th>challenge</th>
+      <td>4</td>
     </tr>
     <tr>
       <th>pre</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>answering</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>story</th>
       <td>3</td>
     </tr>
     <tr>
@@ -71,15 +79,7 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>3</td>
     </tr>
     <tr>
-      <th>reason</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>answering</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>story</th>
+      <th>text</th>
       <td>3</td>
     </tr>
   </tbody>
@@ -114,12 +114,16 @@ Most active researchers in this field
       <td>7</td>
     </tr>
     <tr>
+      <th>Bill Yuchen Lin</th>
+      <td>6</td>
+    </tr>
+    <tr>
       <th>Ronan Le Bras</th>
       <td>5</td>
     </tr>
     <tr>
-      <th>Bill Yuchen Lin</th>
-      <td>5</td>
+      <th>Xiang Ren</th>
+      <td>4</td>
     </tr>
     <tr>
       <th>Dan Roth</th>
@@ -134,11 +138,7 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
-      <th>Vered Shwartz</th>
-      <td>3</td>
-    </tr>
-    <tr>
-      <th>Xiang Ren</th>
+      <th>Yangqiu Song</th>
       <td>3</td>
     </tr>
   </tbody>
@@ -160,7 +160,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
   <tbody>
     <tr>
       <th>ACL</th>
-      <td>10</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>EMNLP</th>
@@ -168,7 +168,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
     </tr>
     <tr>
       <th>arxiv</th>
-      <td>7</td>
+      <td>9</td>
     </tr>
     <tr>
       <th>AAAI</th>
@@ -305,6 +305,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Bill Yuchen Lin, Seyeon Lee, Rahul Khanna and Xiang Ren*
 
+**A Review of Winograd Schema Challenge Datasets and Approaches** arxiv 2020 [paper](https://arxiv.org/abs/2004.13831)
+
+*Vid Kocijan, Thomas Lukasiewicz, Ernest Davis, Gary Marcus, Leora Morgenstern*
+
 [back to table of contents](#toc)
 
 ### Evaluation and Probing
@@ -320,6 +324,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Does BERT Solve Commonsense Task via Commonsense Knowledge?** arxiv 2020 [paper](https://arxiv.org/pdf/2008.03945)
 
 *Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang*
+
+**WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge** ACL 2020 [paper](https://arxiv.org/pdf/2005.05763) [code](https://github.com/HKUST-KnowComp/WinoWhy)
+
+*Hongming Zhang, Xinran Zhao, Yangqiu Song*
 
 [back to table of contents](#toc)
 
@@ -373,6 +381,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Differentiable Open-Ended Commonsense Reasoning** arxiv 2020 [paper](https://arxiv.org/pdf/2010.14439)
 
 *Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen*
+
+**Pre-training Text-to-Text Transformers for Concept-centric Common Sense** arxiv 2020 [paper](https://arxiv.org/pdf/2011.07956) [code](https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/)
+
+*Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren*
 
 ### Machine Reading Comprehension (MRC)
 <br/>
