@@ -27,7 +27,7 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">57</anchor> .
+Total papers in this repo: <anchor id="cnt">58</anchor> .
 
 **Research Keywords**
 
@@ -44,11 +44,23 @@ Non-stopping words in title, indicating the hot topics in this field.
   <tbody>
     <tr>
       <th>reasoning</th>
-      <td>12</td>
+      <td>13</td>
     </tr>
     <tr>
       <th>graph</th>
       <td>6</td>
+    </tr>
+    <tr>
+      <th>challenge</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>common</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>sense</th>
+      <td>5</td>
     </tr>
     <tr>
       <th>question</th>
@@ -59,7 +71,7 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>challenge</th>
+      <th>answering</th>
       <td>4</td>
     </tr>
     <tr>
@@ -67,19 +79,7 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>4</td>
     </tr>
     <tr>
-      <th>answering</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>common</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>sense</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>physical</th>
+      <th>machine</th>
       <td>3</td>
     </tr>
   </tbody>
@@ -106,11 +106,11 @@ Most active researchers in this field
       <td>14</td>
     </tr>
     <tr>
-      <th>Antoine Bosselut</th>
+      <th>Chandra Bhagavatula</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Chandra Bhagavatula</th>
+      <th>Antoine Bosselut</th>
       <td>7</td>
     </tr>
     <tr>
@@ -126,15 +126,15 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
-      <th>Hannah Rashkin</th>
-      <td>4</td>
-    </tr>
-    <tr>
       <th>Dan Roth</th>
       <td>4</td>
     </tr>
     <tr>
       <th>Maarten Sap</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Hannah Rashkin</th>
       <td>4</td>
     </tr>
     <tr>
@@ -160,7 +160,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
   <tbody>
     <tr>
       <th>EMNLP</th>
-      <td>11</td>
+      <td>12</td>
     </tr>
     <tr>
       <th>ACL</th>
@@ -320,6 +320,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Do Neural Language Representations Learn Physical Commonsense?** CogSci 2019 [paper](https://arxiv.org/pdf/1908.02899.pdf) [code](https://github.com/mbforbes/physical-commonsense)
 
 *Maxwell Forbes, Ari Holtzman, Yejin Choi*
+
+**How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP 2019 [paper](https://arxiv.org/pdf/1811.01778)
+
+*Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung*
 
 **Joint Reasoning for Multi-Faceted Commonsense Knowledge** AKBC 2020 [paper](https://arxiv.org/pdf/2001.04170.pdf) [homepage](https://dice.mpi-inf.mpg.de/)
 
