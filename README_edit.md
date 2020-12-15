@@ -326,6 +326,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Maxwell Forbes, Ari Holtzman, Yejin Choi*
 
+**How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP 2019 [paper](https://arxiv.org/pdf/1811.01778)
+
+*Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung*
+
 **Joint Reasoning for Multi-Faceted Commonsense Knowledge** AKBC 2020 [paper](https://arxiv.org/pdf/2001.04170.pdf) [homepage](https://dice.mpi-inf.mpg.de/)
 
 *Yohan Chalier, Simon Razniewski, Gerhard Weikum*
@@ -398,6 +402,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Pre-training Text-to-Text Transformers for Concept-centric Common Sense** arxiv 2020 [paper](https://arxiv.org/pdf/2011.07956) [code](https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/)
 
 *Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren*
+
+**Enhanced Story Representation by ConceptNet for Predicting Story Endings** CIKM 2020 [paper](https://dl.acm.org/doi/abs/10.1145/3340531.3417466) [code](https://github.com/shanshan437421/Simplification)
+
+*Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen and Yinggong Zhao*
 
 ### Machine Reading Comprehension (MRC)
 <br/>
