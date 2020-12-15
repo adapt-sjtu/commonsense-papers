@@ -27,7 +27,7 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">58</anchor> .
+Total papers in this repo: <anchor id="cnt">59</anchor> .
 
 **Research Keywords**
 
@@ -51,15 +51,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>6</td>
     </tr>
     <tr>
+      <th>sense</th>
+      <td>5</td>
+    </tr>
+    <tr>
       <th>challenge</th>
       <td>5</td>
     </tr>
     <tr>
       <th>common</th>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>sense</th>
       <td>5</td>
     </tr>
     <tr>
@@ -75,12 +75,12 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>4</td>
     </tr>
     <tr>
-      <th>pre</th>
+      <th>story</th>
       <td>4</td>
     </tr>
     <tr>
-      <th>machine</th>
-      <td>3</td>
+      <th>pre</th>
+      <td>4</td>
     </tr>
   </tbody>
 </table>
@@ -106,11 +106,11 @@ Most active researchers in this field
       <td>14</td>
     </tr>
     <tr>
-      <th>Chandra Bhagavatula</th>
+      <th>Antoine Bosselut</th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Antoine Bosselut</th>
+      <th>Chandra Bhagavatula</th>
       <td>7</td>
     </tr>
     <tr>
@@ -126,15 +126,15 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
+      <th>Hannah Rashkin</th>
+      <td>4</td>
+    </tr>
+    <tr>
       <th>Dan Roth</th>
       <td>4</td>
     </tr>
     <tr>
       <th>Maarten Sap</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>Hannah Rashkin</th>
       <td>4</td>
     </tr>
     <tr>
@@ -175,7 +175,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
       <td>5</td>
     </tr>
     <tr>
-      <th>AKBC</th>
+      <th>CIKM</th>
       <td>2</td>
     </tr>
   </tbody>
@@ -397,6 +397,10 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 **Pre-training Text-to-Text Transformers for Concept-centric Common Sense** arxiv 2020 [paper](https://arxiv.org/pdf/2011.07956) [code](https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/)
 
 *Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren*
+
+**Enhanced Story Representation by ConceptNet for Predicting Story Endings** CIKM 2020 [paper](https://dl.acm.org/doi/abs/10.1145/3340531.3417466) [code](https://github.com/shanshan437421/Simplification)
+
+*Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen and Yinggong Zhao*
 
 ### Machine Reading Comprehension (MRC)
 <br/>
