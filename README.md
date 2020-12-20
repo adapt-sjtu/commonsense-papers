@@ -284,7 +284,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
 
-**From Recognition to Cognition: Visual Commonsense Reasoning** CVPR 2019 [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.pdf) [code](https://github.com/rowanz/r2c/) [homepage](http://visualcommonsense.com/)
+**From Recognition to Cognition: Visual Commonsense Reasoning** CVPR 2019 [paper](https://arxiv.org/pdf/1811.10830) [code](https://github.com/rowanz/r2c/) [homepage](http://visualcommonsense.com/)
 
 *Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi*
 
@@ -348,7 +348,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu*
 
-**Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://www.aclweb.org/anthology/D19-1109.pdf)
+**Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.00505)
 
 *Joe Davison, Joshua Feldman, Alexander Rush*
 
@@ -376,12 +376,11 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 <br/>
 
 **Neural natural language inference models enhanced with external knowledge** ACL 2018 [paper](https://arxiv.org/abs/1711.04289) [code](https://github.com/lukecq1231/kim)
-- resource: WordNet
+
 
 *Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei*
 
-**Incorporating Structured Commonsense Knowledge in Story Completion** AAAI 2019 [paper](https://www.aaai.org/ojs/index.php/AAAI/article/download/5183/5055)
-- resource: ConceptNet Numberbatch
+**Incorporating Structured Commonsense Knowledge in Story Completion** AAAI 2019 [paper](https://arxiv.org/pdf/1811.00625)
 
 *Jiaao Chen, Jianshu Chen, Zhou Yu*
 
@@ -409,7 +408,6 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 <br/>
 
 **Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1226.pdf) [code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET)
-- resource: WordNet, NELL
 
 *An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li*
 
@@ -417,13 +415,11 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 <br/>
 
 **Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** ACL 2020 [paper](https://www.aclweb.org/anthology/2020.acl-main.515.pdf) [code](https://github.com/pku-orangecat/ACL2020-ConKADI)
-- resource: ConceptNet
 
 *Sixing Wu, Ying Li, Dawei Zhang, Yang Zhou, Zhonghai Wu*
 
 
 **Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.11692.pdf)
-- resource: ConceptNet
 
 *Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu, Minlie Huang*
 
@@ -431,7 +427,6 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 <br/>
 
 **Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering** arxiv 2019 [paper](https://arxiv.org/pdf/1911.03876)
-- resource: COMET
 
 *Antoine Bosselut, Yejin Choi*
 
@@ -440,7 +435,6 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 *Lis Pereira, Xiaodong Liu, Fei Cheng, Masayuki Asahara, Ichiro Kobayashi*
 
 **Unsupervised Commonsense Question Answering with Self-Talk** EMNLP 2020 [paper](https://arxiv.org/pdf/2004.05483) [code](https://github.com/vered1986/self_talk)
-- resource: ConceptNet, COMET, Google N-grams
 
 *Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi*
 
@@ -456,7 +450,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Haonan Chen; Hao Tan; Alan Kuntz; Mohit Bansal; Ron Alterovitz*
 
-**Visual Commonsense R-CNN** CVPR 2020 [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Visual_Commonsense_R-CNN_CVPR_2020_paper.pdf) [code](https://github.com/Wangt-CN/VC-R-CNN)
+**Visual Commonsense R-CNN** CVPR 2020 [paper](https://arxiv.org/pdf/2002.12204) [code](https://github.com/Wangt-CN/VC-R-CNN)
 
 *Tan Wang, Jianqiang Huang, Hanwang Zhang, Qianru Sun*
 
