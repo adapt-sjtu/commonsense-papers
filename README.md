@@ -11,9 +11,6 @@ Contributed by [ADAPTers](https://adapt.seiee.sjtu.edu.cn/) (major efforts by Zh
 
 Our list may not be complete. We will keep adding papers and improving it. [Contributions](CONTRIBUTING.md) are welcomed!
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
