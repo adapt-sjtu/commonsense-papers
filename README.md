@@ -89,7 +89,6 @@ Non-stopping words in title, indicating the hot topics in this field.
   </tbody>
 </table>
 </anchor>
-
 <br/>
 
 **Researchers**
