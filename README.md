@@ -3,6 +3,10 @@ Must-read papers on commonsense knowledge and others resources and tutorials
 
 We aim to select the most representative and innovative papers in the research field of **commonsense knowledge**, and provide taxonomy/classification as well as statistics of these papers to give a quick overview of the field and help focused reading.
 
+We've also added (influential) citation numbers according to [Semantic Scholar](https://www.semanticscholar.org/), [AltMetric Badge](http://api.altmetric.com/embeds.html) (paper influence in social media) and [Dimensions Badge](https://badge.dimensions.ai/) (paper citations) for **papers that can be linked to an arxiv id/DOI**. Highly influential papers should now be easier to identify, though we still encourage readers to read other papers that might have been overlooked. Due to rendering limitation, the badges are only visible on our [website](https://adapt-sjtu.github.io/commonsense-papers/). 
+
+![badges](images/badges.jpg)
+
 Contributed by [ADAPTers](https://adapt.seiee.sjtu.edu.cn/) (major efforts by Zhiling Zhang([@blmoistawinde](https://github.com/blmoistawinde)), Siyu Ren, Hongru Huang, Zelin Zhou, Yanzhu Guo)
 
 Our list may not be complete. We will keep adding papers and improving it. [Contributions](CONTRIBUTING.md) are welcomed!
@@ -55,14 +59,6 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>challenge</th>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>common</th>
-      <td>5</td>
-    </tr>
-    <tr>
       <th>question</th>
       <td>5</td>
     </tr>
@@ -71,7 +67,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>answering</th>
+      <th>challenge</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>common</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>pre</th>
       <td>4</td>
     </tr>
     <tr>
@@ -79,13 +83,12 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>4</td>
     </tr>
     <tr>
-      <th>pre</th>
+      <th>answering</th>
       <td>4</td>
     </tr>
   </tbody>
 </table>
 </anchor>
-
 <br/>
 
 **Researchers**
@@ -102,43 +105,43 @@ Most active researchers in this field
   </thead>
   <tbody>
     <tr>
-      <th>Yejin Choi</th>
+      <th><a href="https://www.semanticscholar.org/author/1699545">Yejin Choi</a></th>
       <td>14</td>
     </tr>
     <tr>
-      <th>Antoine Bosselut</th>
+      <th><a href="https://www.semanticscholar.org/author/2691021">Antoine Bosselut</a></th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Chandra Bhagavatula</th>
+      <th><a href="https://www.semanticscholar.org/author/1857797">Chandra Bhagavatula</a></th>
       <td>7</td>
     </tr>
     <tr>
-      <th>Bill Yuchen Lin</th>
+      <th><a href="https://www.semanticscholar.org/author/51583409">Bill Yuchen Lin</a></th>
       <td>6</td>
     </tr>
     <tr>
-      <th>Ronan Le Bras</th>
+      <th><a href="https://www.semanticscholar.org/author/39227408">Ronan Le Bras</a></th>
       <td>5</td>
     </tr>
     <tr>
-      <th>Xiang Ren</th>
+      <th><a href="https://www.semanticscholar.org/author/1384550891">Xiang Ren</a></th>
       <td>4</td>
     </tr>
     <tr>
-      <th>Hannah Rashkin</th>
+      <th><a href="https://www.semanticscholar.org/author/2516777">Hannah Rashkin</a></th>
       <td>4</td>
     </tr>
     <tr>
-      <th>Dan Roth</th>
+      <th><a href="https://www.semanticscholar.org/author/144590225">Dan Roth</a></th>
       <td>4</td>
     </tr>
     <tr>
-      <th>Maarten Sap</th>
+      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
       <td>4</td>
     </tr>
     <tr>
-      <th>Hongming Zhang</th>
+      <th><a href="https://www.semanticscholar.org/author/48212577">Hongming Zhang</a></th>
       <td>3</td>
     </tr>
   </tbody>
@@ -190,7 +193,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Shane Storks, Qiaozi Gao, Joyce Y. Chai*
 
-**T6: Commonsense Reasoning for Natural Language Processing.** ACL 2020. [slides and video](https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing) 
+**T6: Commonsense Reasoning for Natural Language Processing.** ACL 2020. [slides and video](https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing)
 
 *Antoine Bosselut, Dan Roth, Maarten Sap, Vered Shwartz, Yejin Choi*
 
@@ -246,11 +249,11 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 ### Related Knowledge Bases
 <br/>
 
-**WordNet: A Lexical Database for English** Communications of the ACM Vol. 38, No. 11: 39-41. 1995. [homepage] (https://wordnet.princeton.edu/)
+**WordNet: A Lexical Database for English** Communications of the ACM Vol. 38, No. 11: 39-41. 1995. [homepage](https://wordnet.princeton.edu/)
 
 *George A. Miller*
 
-**Toward an Architecture for Never-Ending Language Learning** (NELL). AAAI 2010 [paper](http://rtw.ml.cmu.edu/papers/carlson-aaai10.pdf) [homepage](http://rtw.ml.cmu.edu/rtw/) 
+**Toward an Architecture for Never-Ending Language Learning** (NELL). AAAI 2010 [paper](http://rtw.ml.cmu.edu/papers/carlson-aaai10.pdf) [homepage](http://rtw.ml.cmu.edu/rtw/)
 
 *Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell*
 
@@ -406,7 +409,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 <br/>
 
 **Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1226.pdf) [code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET)
-- resource: WordNet, NELL 
+- resource: WordNet, NELL
 
 *An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li*
 

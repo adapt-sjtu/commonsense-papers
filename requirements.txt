@@ -1,0 +1,8 @@
+requests==2.24.0
+tenacity==6.2.0
+semanticscholar
+numpy
+pandas
+spacy
+markdown2
+jinja2
