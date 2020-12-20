@@ -11,7 +11,7 @@ The `README_edit` is the file for human to edit, and `index.html` should be auto
 All the papers include here should follow the following format: 
 
 ```
-**Paper Title** (abbreviation, if exists, and not in title) VENUE YEAR [paper](url) [code](url)
+**Paper Title** (abbreviation, if exists, and not in title) VENUE YEAR [code](url)
 
 *Author1, Author2*
 ```
@@ -21,8 +21,6 @@ Different kinds of papers may have different requirements:
 - For resource, includes author names, venue(published version first, then arxiv), resource abbreviation, links to homepage, paper and code(if possible).
 
 - For other papers, includes author names, venue, links to paper and code(if possible), and list the resources used if possible.
-
-Always choose arxiv links for paper if possible, because the content can update, and arxiv also makes the badge linking more easier. Other recommended sources are ACM library and ACL. 
 
 ## Classification
 
