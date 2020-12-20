@@ -1,5 +1,5 @@
-requests==2.24.0
-tenacity==6.2.0
+requests
+tenacity
 semanticscholar
 numpy
 pandas
