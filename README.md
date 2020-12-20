@@ -1,9 +1,13 @@
 # commonsense-papers
 Must-read papers on commonsense knowledge and others resources and tutorials
 
+Better viewed on website:
+
+[https://adapt-sjtu.github.io/commonsense-papers/](https://adapt-sjtu.github.io/commonsense-papers/)
+
 We aim to select the most representative and innovative papers in the research field of **commonsense knowledge**, and provide taxonomy/classification as well as statistics of these papers to give a quick overview of the field and help focused reading.
 
-We've also added (influential) citation numbers according to [Semantic Scholar](https://www.semanticscholar.org/), [AltMetric Badge](http://api.altmetric.com/embeds.html) (paper influence in social media) and [Dimensions Badge](https://badge.dimensions.ai/) (paper citations) for **papers that can be linked to an arxiv id/DOI**. Highly influential papers should now be easier to identify, though we still encourage readers to read other papers that might have been overlooked. Due to rendering limitation, the badges are only visible on our [website](https://adapt-sjtu.github.io/commonsense-papers/). 
+We've also added (influential) citation numbers according to [Semantic Scholar](https://www.semanticscholar.org/), [AltMetric Badge](http://api.altmetric.com/embeds.html) (paper influence in social media) and [Dimensions Badge](https://badge.dimensions.ai/) (paper citations) for **papers that can be linked to an arxiv id/DOI**. Highly influential papers should now be easier to identify, though we still encourage readers to read other papers that might have been overlooked. Due to rendering limitation, the badges are only visible on our [website](https://adapt-sjtu.github.io/commonsense-papers/).
 
 ![badges](images/badges.jpg)
 
@@ -14,24 +18,24 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
-  - [Statistics](#statistics)
-  - [Tutorial and Survey](#tutorial-and-survey)
-  - [Resources and Evaluation](#resources-and-evaluation)
-    - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
-    - [Related Knowledge Bases](#related-knowledge-bases)
-    - [Datasets and Benchmarks](#datasets-and-benchmarks)
-    - [Evaluation and Probing](#evaluation-and-probing)
-  - [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
-  - [Applications](#applications)
-    - [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
-    - [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
-    - [Generation](#generation)
-    - [Question Answering (QA)](#question-answering-qa)
-    - [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
+- [Statistics](#statistics)
+- [Tutorial and Survey](#tutorial-and-survey)
+- [Resources and Evaluation](#resources-and-evaluation)
+- [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
+- [Related Knowledge Bases](#related-knowledge-bases)
+- [Datasets and Benchmarks](#datasets-and-benchmarks)
+- [Evaluation and Probing](#evaluation-and-probing)
+- [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
+- [Applications](#applications)
+- [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
+- [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
+- [Generation](#generation)
+- [Question Answering (QA)](#question-answering-qa)
+- [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">59</anchor> .
+Total papers in this repo: <anchor id="cnt">60</anchor> .
 
 **Research Keywords**
 
@@ -55,15 +59,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>6</td>
     </tr>
     <tr>
-      <th>sense</th>
-      <td>5</td>
-    </tr>
-    <tr>
       <th>question</th>
       <td>5</td>
     </tr>
     <tr>
       <th>model</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>sense</th>
       <td>5</td>
     </tr>
     <tr>
@@ -75,15 +79,15 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>pre</th>
-      <td>4</td>
-    </tr>
-    <tr>
       <th>story</th>
       <td>4</td>
     </tr>
     <tr>
       <th>answering</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>pre</th>
       <td>4</td>
     </tr>
   </tbody>
@@ -109,11 +113,11 @@ Most active researchers in this field
       <td>14</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/2691021">Antoine Bosselut</a></th>
+      <th><a href="https://www.semanticscholar.org/author/1857797">Chandra Bhagavatula</a></th>
       <td>7</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/1857797">Chandra Bhagavatula</a></th>
+      <th><a href="https://www.semanticscholar.org/author/2691021">Antoine Bosselut</a></th>
       <td>7</td>
     </tr>
     <tr>
@@ -123,6 +127,10 @@ Most active researchers in this field
     <tr>
       <th><a href="https://www.semanticscholar.org/author/39227408">Ronan Le Bras</a></th>
       <td>5</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
+      <td>4</td>
     </tr>
     <tr>
       <th><a href="https://www.semanticscholar.org/author/1384550891">Xiang Ren</a></th>
@@ -137,20 +145,34 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
+      <th><a href="https://www.semanticscholar.org/author/1796651">Kenny Q. Zhu</a></th>
       <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/95882703">Yangqiu Song</a></th>
+      <td>3</td>
     </tr>
     <tr>
       <th><a href="https://www.semanticscholar.org/author/48212577">Hongming Zhang</a></th>
       <td>3</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/3103343">Vered Shwartz</a></th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/8805254">Chaitanya Malaviya</a></th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/35219984">Nicholas Lourie</a></th>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
 </anchor>
 
 **Venues**
-
-Just an estimation. May not be precise as arxiv papers may appear in other venues in the future.
 
 <anchor id="venue">
 <table border="1" class="dataframe">
@@ -162,23 +184,23 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
   </thead>
   <tbody>
     <tr>
-      <th>EMNLP</th>
-      <td>12</td>
+      <th>ACL</th>
+      <td>10</td>
     </tr>
     <tr>
-      <th>ACL</th>
-      <td>11</td>
+      <th>EMNLP</th>
+      <td>9</td>
     </tr>
     <tr>
       <th>arxiv</th>
-      <td>9</td>
+      <td>7</td>
     </tr>
     <tr>
       <th>AAAI</th>
       <td>5</td>
     </tr>
     <tr>
-      <th>CIKM</th>
+      <th>AKBC</th>
       <td>2</td>
     </tr>
   </tbody>
@@ -204,9 +226,9 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 ### Commonsense Knowledge Bases/Models
 <br/>
 
-**CYC: Toward programs with common sense** [data(OpenCyc)](https://github.com/asanchez75/opencyc) [homepage](https://www.cyc.com/)
+**CYC: Toward programs with common sense** Communications of the ACM 1990 [data](https://github.com/asanchez75/opencyc) [homepage](https://www.cyc.com/)
 
-**Commonsense causal reasoning between short texts** (CausalNet) KR 2016 [paper](http://www.cs.sjtu.edu.cn/~kzhu/papers/kzhu-copa.pdf) [homepage](https://adapt.seiee.sjtu.edu.cn/project_causal.html) [code](https://github.com/cs-zyluo/CausalNet)
+**Commonsense Causal Reasoning between Short Texts** (CausalNet) KR 2016 [paper](https://dl.acm.org/doi/abs/10.5555/3032027.3032078) [homepage](https://adapt.seiee.sjtu.edu.cn/project_causal.html) [code](https://github.com/cs-zyluo/CausalNet)
 
 *Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-won Hwang, Zhongyuan Wang*
 
@@ -253,9 +275,13 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *George A. Miller*
 
-**Toward an Architecture for Never-Ending Language Learning** (NELL). AAAI 2010 [paper](http://rtw.ml.cmu.edu/papers/carlson-aaai10.pdf) [homepage](http://rtw.ml.cmu.edu/rtw/)
+**Toward an Architecture for Never-Ending Language Learning** (NELL) AAAI 2010 [paper](http://rtw.ml.cmu.edu/papers/carlson-aaai10.pdf) [homepage](http://rtw.ml.cmu.edu/rtw/)
 
 *Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell*
+
+**Probase: a probabilistic taxonomy for text understanding** SIGMOD 2012 [paper](https://dl.acm.org/doi/10.1145/2213836.2213891) [homepage](https://www.microsoft.com/en-us/research/project/probase/)
+
+*Wentao Wu, Hongsong Li, Haixun Wang, Kenny Q. Zhu*
 
 **DBpedia – A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia**. Semantic Web 2012 [paper](http://svn.aksw.org/papers/2013/SWJ_DBpedia/public.pdf) [homepage](https://wiki.dbpedia.org/)
 
@@ -288,7 +314,7 @@ Just an estimation. May not be precise as arxiv papers may appear in other venue
 
 *Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi*
 
-**oLMpics -- On what Language Model Pre-training Captures** arxiv 2019 [paper](https://arxiv.org/pdf/1912.13283.pdf) [code](https://github.com/alontalmor/oLMpics) [homepage](https://github.com/alontalmor/oLMpics)
+**oLMpics -- On what Language Model Pre-training Captures** TACL 2019 [paper](https://arxiv.org/pdf/1912.13283.pdf) [code](https://github.com/alontalmor/oLMpics) [homepage](https://github.com/alontalmor/oLMpics)
 
 *Alon Talmor, Yanai Elazar, Yoav Goldberg, Jonathan Berant*
 
