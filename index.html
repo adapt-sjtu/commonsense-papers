@@ -1,0 +1,483 @@
+<h1>commonsense-papers</h1>
+
+<p>Must-read papers on commonsense knowledge and others resources and tutorials</p>
+
+<p>We aim to select the most representative and innovative papers in the research field of <strong>commonsense knowledge</strong>, and provide taxonomy/classification as well as statistics of these papers to give a quick overview of the field and help focused reading.</p>
+
+<p>We've also added (influential) citation numbers according to <a href="https://www.semanticscholar.org/">Semantic Scholar</a>, <a href="http://api.altmetric.com/embeds.html">AltMetric Badge</a> (paper influence in social media) and <a href="https://badge.dimensions.ai/">Dimensions Badge</a> (paper citations) for <strong>papers that can be linked to an arxiv id/DOI</strong>. Highly influential papers should now be easier to identify, though we still encourage readers to read other papers that might have been overlooked.</p>
+
+<image src="images/badges.jpg"></image>
+
+<p>Contributed by <a href="https://adapt.seiee.sjtu.edu.cn/">ADAPTers</a> (major efforts by Zhiling Zhang(<a href="https://github.com/blmoistawinde">@blmoistawinde</a>), Siyu Ren, Hongru Huang, Zelin Zhou, Yanzhu Guo)</p>
+
+<p>Our list may not be complete. We will keep adding papers and improving it. <a href="CONTRIBUTING.md">Contributions</a> are welcomed!</p>
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<h2 id="toc">Table of Contents</h2>
+
+<ul>
+<li><a href="#commonsense-papers">commonsense-papers</a></li>
+<li><a href="#statistics">Statistics</a></li>
+<li><a href="#tutorial-and-survey">Tutorial and Survey</a></li>
+<li><a href="#resources-and-evaluation">Resources and Evaluation</a></li>
+<li><a href="#commonsense-knowledge-basesmodels">Commonsense Knowledge Bases/Models</a></li>
+<li><a href="#related-knowledge-bases">Related Knowledge Bases</a></li>
+<li><a href="#datasets-and-benchmarks">Datasets and Benchmarks</a></li>
+<li><a href="#evaluation-and-probing">Evaluation and Probing</a></li>
+<li><a href="#knowledge-mining-knowledge-base-completion">Knowledge Mining (Knowledge Base Completion)</a></li>
+<li><a href="#applications">Applications</a></li>
+<li><a href="#natural-language-inference-nli-and-commonsense-reasoning-csr">natural language inference (NLI) and commonsense reasoning (CSR)</a></li>
+<li><a href="#machine-reading-comprehension-mrc">Machine Reading Comprehension (MRC)</a></li>
+<li><a href="#generation">Generation</a></li>
+<li><a href="#question-answering-qa">Question Answering (QA)</a></li>
+<li><a href="#vision-robotics-multimodal-grounding-and-speech">Vision, Robotics, Multimodal, Grounding and Speech</a></li>
+</ul>
+
+<h2>Statistics</h2>
+
+<p>Total papers in this repo: <anchor id="cnt">59</anchor> .</p>
+
+<p><strong>Research Keywords</strong></p>
+
+<p>Non-stopping words in title, indicating the hot topics in this field.</p>
+
+<p><anchor id="keyword"></p>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>reasoning</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>graph</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>sense</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>question</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>model</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>challenge</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>common</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>pre</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>story</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>answering</th>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></anchor></p>
+
+<p><br/></p>
+
+<p><strong>Researchers</strong></p>
+
+<p>Most active researchers in this field</p>
+
+<p><anchor id="researcher"></p>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/1699545">Yejin Choi</a></th>
+      <td>14</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/2691021">Antoine Bosselut</a></th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/1857797">Chandra Bhagavatula</a></th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/51583409">Bill Yuchen Lin</a></th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/39227408">Ronan Le Bras</a></th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/1384550891">Xiang Ren</a></th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/2516777">Hannah Rashkin</a></th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/144590225">Dan Roth</a></th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/48212577">Hongming Zhang</a></th>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></anchor></p>
+
+<p><strong>Venues</strong></p>
+
+<p>Just an estimation. May not be precise as arxiv papers may appear in other venues in the future.</p>
+
+<p><anchor id="venue"></p>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>EMNLP</th>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>ACL</th>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>arxiv</th>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>AAAI</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>CIKM</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></anchor></p>
+
+<p><br/></p>
+
+<h2>Tutorial and Survey</h2>
+
+<p><strong>Recent Advances in Natural Language Inference: A Survey of Benchmarks, Resources, and Approaches</strong> arxiv 2019 <a href="https://arxiv.org/pdf/1904.01172">paper</a> (Citations: 27, 2 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1904.01172"  style="float:left"></div> <br/></p>
+
+<p><em>Shane Storks, Qiaozi Gao, Joyce Y. Chai</em></p>
+
+<p><strong>T6: Commonsense Reasoning for Natural Language Processing.</strong> ACL 2020. <a href="https://slideslive.com/38931667/t6-commonsense-reasoning-for-natural-language-processing">slides and video</a></p>
+
+<p><em>Antoine Bosselut, Dan Roth, Maarten Sap, Vered Shwartz, Yejin Choi</em></p>
+
+<p><a href="#toc">back to table of contents</a></p>
+
+<h2>Resources and Evaluation</h2>
+
+<h3>Commonsense Knowledge Bases/Models</h3>
+
+<p><br/></p>
+
+<p><strong>CYC: Toward programs with common sense</strong> <a href="https://github.com/asanchez75/opencyc">data(OpenCyc)</a> <a href="https://www.cyc.com/">homepage</a></p>
+
+<p><strong>Commonsense causal reasoning between short texts</strong> (CausalNet) KR 2016 <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/kzhu-copa.pdf">paper</a> <a href="https://adapt.seiee.sjtu.edu.cn/project_causal.html">homepage</a> <a href="https://github.com/cs-zyluo/CausalNet">code</a></p>
+
+<p><em>Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-won Hwang, Zhongyuan Wang</em></p>
+
+<p><strong>ConceptNet 5.5: an open multilingual graph of general knowledge</strong> AAAI 2017. <a href="https://arxiv.org/pdf/1612.03975">paper</a> <a href="https://conceptnet.io/">homepage</a> <a href="https://github.com/commonsense/conceptnet5">repo</a> <a href="https://github.com/commonsense/conceptnet-numberbatch">embedding(ConceptNet Numberbatch) repo</a> (Citations: 620, 153 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1612.03975"  style="float:left"></div> <br/></p>
+
+<p><em>Robyn Speer, Joshua Chin, Catherine Havasi</em></p>
+
+<p><strong>ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning</strong> AAAI 2019. <a href="https://arxiv.org/pdf/1811.00146.pdf">paper</a> <a href="https://homes.cs.washington.edu/~msap/atomic/">homepage</a> (Citations: 152, 36 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1811.00146"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1609/AAAI.V33I01.33013027" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Maarten Sap, Ronan LeBras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi</em></p>
+
+<p><strong>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</strong> ACL 2019 <a href="https://arxiv.org/abs/1906.05317">paper</a> <a href="https://mosaickg.apps.allenai.org/">homepage</a> <a href="https://github.com/atcbosselut/comet-commonsense">code</a> (Citations: 123, 23 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1906.05317"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/P19-1470" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, Yejin Choi</em></p>
+
+<p><strong>ASER: A Large-scale Eventuality Knowledge Graph.</strong> WWW 2020 <a href="https://arxiv.org/pdf/1905.00270">paper</a> <a href="https://hkust-knowcomp.github.io/ASER/">homepage</a> <a href="https://github.com/HKUST-KnowComp/ASER">code</a> (Citations: 14, 2 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1905.00270"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1145/3366423.3380107" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Hongming Zhang, Xin Liu, Haojie Pan, Yangqiu Song, Cane Wing-Ki Leung</em></p>
+
+<p><strong>Commonsense Properties from Query Logs and Question Answering Forums</strong> (quasimodo) CIKM 2019 <a href="https://arxiv.org/pdf/1905.10989.pdf">paper</a> <a href="https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/">homepage</a> <a href="https://github.com/Aunsiels/CSK">code</a> (Citations: 12, 1 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1905.10989"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1145/3357384.3357955" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Julien Romero, Simon Razniewski, Koninika Pal, Jeff Z. Pan, Archit Sakhadeo, Gerhard Weikum</em></p>
+
+<p><strong>TransOMCS: From Linguistic Graphs to Commonsense Knowledge</strong>  IJCAI 2020 <a href="https://arxiv.org/pdf/2005.00206">paper</a> <a href="https://hkust-knowcomp.github.io/ASER/">homepage</a> <a href="https://github.com/HKUST-KnowComp/TransOMCS">code</a> (Citations: 6, 2 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.00206"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.24963/ijcai.2020/550" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Hongming Zhang, Daniel Khashabi, Yangqiu Song, Dan Roth</em></p>
+
+<p><strong>Paragraph-Level Commonsense Transformers with Recurrent Memory</strong> (PARA-COMeT) arxiv 2020 <a href="https://arxiv.org/pdf/2010.01486">paper</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2010.01486"  style="float:left"></div> <br/></p>
+
+<p><em>Saadia Gabriel, Chandra Bhagavatula, Vered Shwartz, Ronan Le Bras, Maxwell Forbes, Yejin Choi</em></p>
+
+<p><strong>COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs</strong> arxiv 2020 <a href="https://arxiv.org/pdf/2010.05953.pdf">paper</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2010.05953"  style="float:left"></div> <br/></p>
+
+<p><em>Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi</em></p>
+
+<p><strong>CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning</strong> EMNLP 2020 Findings <a href="https://arxiv.org/pdf/1911.03705">paper</a> <a href="https://inklab.usc.edu/CommonGen/index.html">homepage</a> (Citations: 9, 2 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1911.03705"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.findings-emnlp.165" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren</em></p>
+
+<h3>Related Knowledge Bases</h3>
+
+<p><br/></p>
+
+<p><strong>WordNet: A Lexical Database for English</strong> Communications of the ACM Vol. 38, No. 11: 39-41. 1995. [homepage] (https://wordnet.princeton.edu/)</p>
+
+<p><em>George A. Miller</em></p>
+
+<p><strong>Toward an Architecture for Never-Ending Language Learning</strong> (NELL). AAAI 2010 <a href="http://rtw.ml.cmu.edu/papers/carlson-aaai10.pdf">paper</a> <a href="http://rtw.ml.cmu.edu/rtw/">homepage</a></p>
+
+<p><em>Andrew Carlson, Justin Betteridge, Bryan Kisiel, Burr Settles, Estevam R. Hruschka Jr., and Tom M. Mitchell</em></p>
+
+<p><strong>DBpedia – A Large-scale, Multilingual Knowledge Base Extracted from Wikipedia</strong>. Semantic Web 2012 <a href="http://svn.aksw.org/papers/2013/SWJ_DBpedia/public.pdf">paper</a> <a href="https://wiki.dbpedia.org/">homepage</a></p>
+
+<p><em>Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas, Pablo N. Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick van Kleef, Sören Auer, Christian Bizer</em></p>
+
+<h3>Datasets and Benchmarks</h3>
+
+<p><br/></p>
+
+<p><strong>A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories</strong> (Story Cloze Test) NAACL 2016 <a href="https://www.aclweb.org/anthology/N16-1098.pdf">paper</a> <a href="https://cs.rochester.edu/nlp/rocstories/">homepage</a></p>
+
+<p><em>Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen</em></p>
+
+<p><strong>Modeling Naive Psychology of Characters in Simple Commonsense Stories</strong> ACL 2018 <a href="https://arxiv.org/pdf/1805.06533">paper</a> <a href="https://uwnlp.github.io/storycommonsense/">homepage</a> (Citations: 33, 7 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1805.06533"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/P18-1213" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Hannah Rashkin, Antoine Bosselut, Maarten Sap, Kevin Knight, Yejin Choi</em></p>
+
+<p><strong>SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge</strong> SemEval 2018 <a href="https://www.aclweb.org/anthology/S18-1119.pdf">paper</a></p>
+
+<p><em>Simon Ostermann, Michael Roth, Ashutosh Modi, Stefan Thater, Manfred Pinkal</em></p>
+
+<p><strong>Reasoning about Actions and State Changes by Injecting Commonsense Knowledge</strong> (ProPara) EMNLP 2018 <a href="https://arxiv.org/pdf/1808.10012">paper</a> <a href="https://github.com/allenai/propara">code</a> (Citations: 41, 7 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1808.10012"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/D18-1006" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, Antoine Bosselut, Peter Clark</em></p>
+
+<p><strong>CommonSenseqa: A question answering challenge targeting commonsense knowledge</strong> NAACL 2019 <a href="https://arxiv.org/abs/1811.00937">paper</a> <a href="https://www.tau-nlp.org/commonsenseqa">homepage</a> <a href="https://github.com/jonathanherzig/commonsenseqa">code</a> (Citations: 149, 49 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1811.00937"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/N19-1421" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant</em></p>
+
+<p><strong>From Recognition to Cognition: Visual Commonsense Reasoning</strong> CVPR 2019 <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zellers_From_Recognition_to_Cognition_Visual_Commonsense_Reasoning_CVPR_2019_paper.pdf">paper</a> <a href="https://github.com/rowanz/r2c/">code</a> <a href="http://visualcommonsense.com/">homepage</a></p>
+
+<p><em>Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi</em></p>
+
+<p><strong>oLMpics -- On what Language Model Pre-training Captures</strong> arxiv 2019 <a href="https://arxiv.org/pdf/1912.13283.pdf">paper</a> <a href="https://github.com/alontalmor/oLMpics">code</a> <a href="https://github.com/alontalmor/oLMpics">homepage</a> (Citations: 57, 7 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1912.13283"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1162/tacl_a_00342" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Alon Talmor, Yanai Elazar, Yoav Goldberg, Jonathan Berant</em></p>
+
+<p><strong>ABDUCTIVE COMMONSENSE REASONING</strong> (ART) ICLR 2020 <a href="https://arxiv.org/pdf/1908.05739">paper</a> <a href="http://abductivecommonsense.xyz/">homepage</a> (Citations: 53, 7 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1908.05739"  style="float:left"></div> <br/></p>
+
+<p><em>Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi</em></p>
+
+<p><strong>PIQA: Reasoning about Physical Commonsense in Natural Language</strong> AAAI 2020 <a href="https://arxiv.org/pdf/1911.11641.pdf">paper</a> <a href="https://yonatanbisk.com/piqa/">homepage</a> (Citations: 39, 4 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1911.11641"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1609/AAAI.V34I05.6239" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi</em></p>
+
+<p><strong>Reasoning about Goals, Steps, and Temporal Ordering with WikiHow</strong> EMNLP 2020 <a href="https://arxiv.org/pdf/2009.07690">paper</a> <a href="https://github.com/zharry29/wikihow-goal-step">code</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2009.07690"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.emnlp-main.374" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Qing Lyu, Li Zhang, Chris Callison-Burch</em></p>
+
+<p><strong>Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models</strong> EMNLP 2020 <a href="https://arxiv.org/pdf/2005.00683.pdf">paper</a> <a href="https://inklab.usc.edu/NumerSense/">homepage</a> (Citations: 2)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.00683"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.emnlp-main.557" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Bill Yuchen Lin, Seyeon Lee, Rahul Khanna and Xiang Ren</em></p>
+
+<p><strong>A Review of Winograd Schema Challenge Datasets and Approaches</strong> arxiv 2020 <a href="https://arxiv.org/abs/2004.13831">paper</a> (Citations: 2)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2004.13831"  style="float:left"></div> <br/></p>
+
+<p><em>Vid Kocijan, Thomas Lukasiewicz, Ernest Davis, Gary Marcus, Leora Morgenstern</em></p>
+
+<p><a href="#toc">back to table of contents</a></p>
+
+<h3>Evaluation and Probing</h3>
+
+<p><strong>Reporting Bias and Knowledge Acquisition</strong> AKBC 2013 <a href="https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=27832&amp;itemFileId=142662">paper</a></p>
+
+<p><em>Jonathan Gordon, Benjamin Van Durme</em></p>
+
+<p><strong>Do Neural Language Representations Learn Physical Commonsense?</strong> CogSci 2019 <a href="https://arxiv.org/pdf/1908.02899.pdf">paper</a> <a href="https://github.com/mbforbes/physical-commonsense">code</a> (Citations: 20, 1 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1908.02899"  style="float:left"></div> <br/></p>
+
+<p><em>Maxwell Forbes, Ari Holtzman, Yejin Choi</em></p>
+
+<p><strong>How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG</strong> EMNLP 2019 <a href="https://arxiv.org/pdf/1811.01778">paper</a> (Citations: 15, 5 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1811.01778"  style="float:left"></div> <br/></p>
+
+<p><em>Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung</em></p>
+
+<p><strong>Joint Reasoning for Multi-Faceted Commonsense Knowledge</strong> AKBC 2020 <a href="https://arxiv.org/pdf/2001.04170.pdf">paper</a> <a href="https://dice.mpi-inf.mpg.de/">homepage</a> (Citations: 5)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2001.04170"  style="float:left"></div> <br/></p>
+
+<p><em>Yohan Chalier, Simon Razniewski, Gerhard Weikum</em></p>
+
+<p><strong>Does BERT Solve Commonsense Task via Commonsense Knowledge?</strong> arxiv 2020 <a href="https://arxiv.org/pdf/2008.03945">paper</a> (Citations: 2)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2008.03945"  style="float:left"></div> <br/></p>
+
+<p><em>Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang</em></p>
+
+<p><strong>WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge</strong> ACL 2020 <a href="https://arxiv.org/pdf/2005.05763">paper</a> <a href="https://github.com/HKUST-KnowComp/WinoWhy">code</a> (Citations: 1)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.05763"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.acl-main.508" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Hongming Zhang, Xinran Zhao, Yangqiu Song</em></p>
+
+<p><a href="#toc">back to table of contents</a></p>
+
+<h2>Knowledge Mining (Knowledge Base Completion)</h2>
+
+<p><strong>Automatic Extraction of Commonsense LocatedNear Knowledge</strong> ACL 2018 <a href="https://arxiv.org/pdf/1711.04204">paper</a> <a href="https://github.com/adapt-sjtu/commonsense-locatednear">code</a> (Citations: 1)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1711.04204"  style="float:left"></div> <br/></p>
+
+<p><em>Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu</em></p>
+
+<p><strong>Commonsense Knowledge Mining from Pretrained Models</strong> EMNLP 2019 <a href="https://www.aclweb.org/anthology/D19-1109.pdf">paper</a></p>
+
+<p><em>Joe Davison, Joshua Feldman, Alexander Rush</em></p>
+
+<p><strong>Language Models as Knowledge Bases?</strong> EMNLP 2019 <a href="https://arxiv.org/pdf/1909.01066.pdf">paper</a> <a href="https://github.com/facebookresearch/LAMA">code</a> (Citations: 196, 34 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1909.01066"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/D19-1250" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel</em></p>
+
+<p><strong>Commonsense Knowledge Base Completion with Structural and Semantic Context</strong> AAAI 2020 <a href="https://arxiv.org/pdf/1910.02915">paper</a> <a href="https://github.com/allenai/commonsense-kg-completion">code</a> (Citations: 10, 3 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1910.02915"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1609/AAAI.V34I03.5684" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Chaitanya Malaviya, Chandra Bhagavatula, Antoine Bosselut, Yejin Choi</em></p>
+
+<p><strong>Temporal Common Sense Acquisition with Minimal Supervision</strong> ACL 2020 <a href="https://arxiv.org/pdf/2005.04304.pdf">paper</a> (Citations: 10)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.04304"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.acl-main.678" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Ben Zhou, Qiang Ning, Daniel Khashabi, Dan Roth</em></p>
+
+<p><strong>Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization</strong> EMNLP 2020 <a href="https://www.aclweb.org/anthology/2020.emnlp-main.266.pdf">paper</a></p>
+
+<p><em>Zhenjie Zhao, Evangelos Papalexakis, Xiaojuan Ma</em></p>
+
+<p><a href="#toc">back to table of contents</a></p>
+
+<h2>Applications</h2>
+
+<h3>natural language inference (NLI) and commonsense reasoning (CSR)</h3>
+
+<p><br/></p>
+
+<p><strong>Neural natural language inference models enhanced with external knowledge</strong> ACL 2018 <a href="https://arxiv.org/abs/1711.04289">paper</a> <a href="https://github.com/lukecq1231/kim">code</a> (Citations: 113, 19 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1711.04289"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/P18-1224" data-style="small_rectangle"  style="float:left"></span> <br/>
+- resource: WordNet</p>
+
+<p><em>Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei</em></p>
+
+<p><strong>Incorporating Structured Commonsense Knowledge in Story Completion</strong> AAAI 2019 <a href="https://www.aaai.org/ojs/index.php/AAAI/article/download/5183/5055">paper</a>
+- resource: ConceptNet Numberbatch</p>
+
+<p><em>Jiaao Chen, Jianshu Chen, Zhou Yu</em></p>
+
+<p><strong>Contrastive Self-Supervised Learning for Commonsense Reasoning</strong> ACL 2020 <a href="https://arxiv.org/pdf/2005.00669.pdf">paper</a> <a href="https://github.com/SAP-samples/acl2020-commonsense/">code</a> (Citations: 5)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.00669"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.acl-main.671" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Tassilo Klein, Moin Nabi</em></p>
+
+<p><strong>Do Language Embeddings Capture Scales?</strong> EMNLP Findings 2020 <a href="https://arxiv.org/pdf/2010.05345">paper</a> <a href="https://github.com/google-research-datasets/numbert">code</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2010.05345"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.findings-emnlp.439" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Xikun Zhang, Deepak Ramachandran, Ian Tenney, Yanai Elazar, Dan Roth</em></p>
+
+<p><strong>Differentiable Open-Ended Commonsense Reasoning</strong> arxiv 2020 <a href="https://arxiv.org/pdf/2010.14439">paper</a> (Citations: 1)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2010.14439"  style="float:left"></div> <br/></p>
+
+<p><em>Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen</em></p>
+
+<p><strong>Pre-training Text-to-Text Transformers for Concept-centric Common Sense</strong> arxiv 2020 <a href="https://arxiv.org/pdf/2011.07956">paper</a> <a href="https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/">code</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2011.07956"  style="float:left"></div> <br/></p>
+
+<p><em>Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren</em></p>
+
+<p><strong>Enhanced Story Representation by ConceptNet for Predicting Story Endings</strong> CIKM 2020 <a href="https://dl.acm.org/doi/abs/10.1145/3340531.3417466">paper</a> <a href="https://github.com/shanshan437421/Simplification">code</a></p>
+
+<p><em>Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen and Yinggong Zhao</em></p>
+
+<h3>Machine Reading Comprehension (MRC)</h3>
+
+<p><br/></p>
+
+<p><strong>Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension</strong> ACL 2019 <a href="https://www.aclweb.org/anthology/P19-1226.pdf">paper</a> <a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET">code</a>
+- resource: WordNet, NELL</p>
+
+<p><em>An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li</em></p>
+
+<h3>Generation</h3>
+
+<p><br/></p>
+
+<p><strong>Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness</strong> ACL 2020 <a href="https://www.aclweb.org/anthology/2020.acl-main.515.pdf">paper</a> <a href="https://github.com/pku-orangecat/ACL2020-ConKADI">code</a>
+- resource: ConceptNet</p>
+
+<p><em>Sixing Wu, Ying Li, Dawei Zhang, Yang Zhou, Zhonghai Wu</em></p>
+
+<p><strong>Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph</strong> EMNLP 2020 <a href="https://arxiv.org/pdf/2009.11692.pdf">paper</a> (Citations: 2)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2009.11692"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.emnlp-main.54" data-style="small_rectangle"  style="float:left"></span> <br/>
+- resource: ConceptNet</p>
+
+<p><em>Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu, Minlie Huang</em></p>
+
+<h3>Question Answering (QA)</h3>
+
+<p><br/></p>
+
+<p><strong>Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</strong> arxiv 2019 <a href="https://arxiv.org/pdf/1911.03876">paper</a> (Citations: 0)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1911.03876"  style="float:left"></div> <br/>
+- resource: COMET</p>
+
+<p><em>Antoine Bosselut, Yejin Choi</em></p>
+
+<p><strong>Adversarial Training for Commonsense Inference</strong> ACL 2020 RepL4NLP workshop <a href="https://arxiv.org/pdf/2005.08156">paper</a> (Citations: 2)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.08156"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.repl4nlp-1.8" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Lis Pereira, Xiaodong Liu, Fei Cheng, Masayuki Asahara, Ichiro Kobayashi</em></p>
+
+<p><strong>Unsupervised Commonsense Question Answering with Self-Talk</strong> EMNLP 2020 <a href="https://arxiv.org/pdf/2004.05483">paper</a> <a href="https://github.com/vered1986/self_talk">code</a> (Citations: 17, 1 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2004.05483"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.emnlp-main.373" data-style="small_rectangle"  style="float:left"></span> <br/>
+- resource: ConceptNet, COMET, Google N-grams</p>
+
+<p><em>Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi</em></p>
+
+<p><strong>Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering</strong> EMNLP 2020 <a href="https://arxiv.org/pdf/2005.00646">paper</a> <a href="https://github.com/INK-USC/MHGRN">code</a> (Citations: 8, 2 influential)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="2005.00646"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2020.emnlp-main.99" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, Xiang Ren</em></p>
+
+<h3>Vision, Robotics, Multimodal, Grounding and Speech</h3>
+
+<p><br/></p>
+
+<p><strong>Enabling Robots to Understand Incomplete Natural Language Instructions Using Commonsense Reasoning</strong> ICRA 2020 <a href="https://arxiv.org/pdf/1904.12907">paper</a> (Citations: 7)  <div data-badge-popover="right" data-badge-type="2" data-hide-no-mentions="true" class="altmetric-embed" data-arxiv-id="1904.12907"  style="float:left"></div>  <span class="__dimensions_badge_embed__" data-doi="10.1109/ICRA40945.2020.9197315" data-style="small_rectangle"  style="float:left"></span> <br/></p>
+
+<p><em>Haonan Chen; Hao Tan; Alan Kuntz; Mohit Bansal; Ron Alterovitz</em></p>
+
+<p><strong>Visual Commonsense R-CNN</strong> CVPR 2020 <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Visual_Commonsense_R-CNN_CVPR_2020_paper.pdf">paper</a> <a href="https://github.com/Wangt-CN/VC-R-CNN">code</a></p>
+
+<p><em>Tan Wang, Jianqiang Huang, Hanwang Zhang, Qianru Sun</em></p>
+
+<p><a href="#toc">back to table of contents</a></p>

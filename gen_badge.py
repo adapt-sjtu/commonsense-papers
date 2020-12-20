@@ -5,6 +5,7 @@ from collections import defaultdict, Counter
 import spacy
 nlp = spacy.load("en", disabled=["ner", "parser"])
 import semanticscholar as sch
+import markdown2
 
 def str_sim(str1, str2):
     # currently use this simple heuristic
@@ -31,9 +32,11 @@ lid2citation_nums = defaultdict(str)
 mention2aid = {}
 aid2url = {}
 curr_authors_info = None
-with open("README_edit.md", encoding="utf-8") as f:
+readme_lines = []
+with open("README.md", encoding="utf-8") as f:
     for lid, line in enumerate(f):
         line = line.strip()
+        readme_lines.append(line)
         if re.search(r"^\*\*([^\*]+)\*\*", line):   # title
             title = re.search(r"^\*\*([^\*]+)\*\*", line).group(1)
             keywords = {x.lemma_.lower() for x in nlp(title) if not (x.is_stop or x.is_punct or x.lemma_.lower() in my_stopwords)}
@@ -61,6 +64,8 @@ with open("README_edit.md", encoding="utf-8") as f:
                         lid2badges[lid] = lid2badges[lid] + dim_badge
                 else:
                     lid2citation_nums[lid] = " (Citations: ?) "
+            else:
+                lid2badges[lid] = ""
 
             try:
                 beg = line.rfind(r"** ") + 3
@@ -98,26 +103,43 @@ kwds_cnt = pd.DataFrame(pd.Series(kwds_cnt).sort_values(ascending=False), column
 author_cnt = pd.DataFrame(pd.Series(author_cnt).sort_values(ascending=False), columns=["count"])
 venue_cnt = pd.DataFrame(pd.Series(venue_cnt).sort_values(ascending=False), columns=["count"])
 
-readme = open("README.md", encoding="utf-8").read()
-readme_lines = readme.split("\n")
-for lid, cite_str in lid2citation_nums.items():
-    readme_lines[lid] += cite_str
-for lid, badge_str in lid2badges.items():
-    readme_lines[lid] += (badge_str + "<br/>")
-readme = "\n".join(readme_lines)
-readme = re.sub(r'<anchor id="cnt">(.*?)</anchor>', f'<anchor id="cnt">{paper_cnt}</anchor>', readme)
+readme_to_md = "\n".join(readme_lines)
+readme_to_md = re.sub(r'<anchor id="cnt">(.*?)</anchor>', f'<anchor id="cnt">{paper_cnt}</anchor>', readme_to_md)
 html0 = kwds_cnt.head(10).to_html()
-readme = re.sub(r'<anchor id="keyword">\n(.*?)\n</anchor>', f'<anchor id="keyword">\n{html0}\n</anchor>', readme, flags=re.DOTALL)
+readme_to_md = re.sub(r'<anchor id="keyword">\n(.*?)\n</anchor>', f'<anchor id="keyword">\n{html0}\n</anchor>', readme_to_md, flags=re.DOTALL)
 html0 = author_cnt.head(10).to_html()
 for mention0 in author_cnt.index:
     if mention0 in mention2aid:
         url0 = aid2url[mention2aid[mention0]]
         html0 = html0.replace(mention0, f'<a href="{url0}">{mention0}</a>')
-readme = re.sub(r'<anchor id="researcher">\n(.*?)\n</anchor>', f'<anchor id="researcher">\n{html0}\n</anchor>', readme, flags=re.DOTALL)
+readme_to_md = re.sub(r'<anchor id="researcher">\n(.*?)\n</anchor>', f'<anchor id="researcher">\n{html0}\n</anchor>', readme_to_md, flags=re.DOTALL)
 html0 = venue_cnt.head(5).to_html()
-readme = re.sub(r'<anchor id="venue">\n(.*?)\n</anchor>', f'<anchor id="venue">\n{html0}\n</anchor>', readme, flags=re.DOTALL)
+readme_to_md = re.sub(r'<anchor id="venue">\n(.*?)\n</anchor>', f'<anchor id="venue">\n{html0}\n</anchor>', readme_to_md, flags=re.DOTALL)
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme)
+    f.write(readme_to_md)
+
+# write to website
+for lid, cite_str in lid2citation_nums.items():
+    if cite_str != "":
+        readme_lines[lid] += cite_str
+for lid, badge_str in lid2badges.items():
+    if badge_str != "":
+        readme_lines[lid] += (badge_str + "<br/>")
+readme_to_html = "\n".join(readme_lines)
+readme_to_html = re.sub(r'<anchor id="cnt">(.*?)</anchor>', f'<anchor id="cnt">{paper_cnt}</anchor>', readme_to_html)
+html0 = kwds_cnt.head(10).to_html()
+readme_to_html = re.sub(r'<anchor id="keyword">\n(.*?)\n</anchor>', f'<anchor id="keyword">\n{html0}\n</anchor>', readme_to_html, flags=re.DOTALL)
+html0 = author_cnt.head(10).to_html()
+for mention0 in author_cnt.index:
+    if mention0 in mention2aid:
+        url0 = aid2url[mention2aid[mention0]]
+        html0 = html0.replace(mention0, f'<a href="{url0}">{mention0}</a>')
+readme_to_html = re.sub(r'<anchor id="researcher">\n(.*?)\n</anchor>', f'<anchor id="researcher">\n{html0}\n</anchor>', readme_to_html, flags=re.DOTALL)
+html0 = venue_cnt.head(5).to_html()
+readme_to_html = re.sub(r'<anchor id="venue">\n(.*?)\n</anchor>', f'<anchor id="venue">\n{html0}\n</anchor>', readme_to_html, flags=re.DOTALL)
+html = markdown2.markdown(readme_to_html)
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(html)
 
 print("Results (for human read)")
 print("\n--Keyword--\n")
