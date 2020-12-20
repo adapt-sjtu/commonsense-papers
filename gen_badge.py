@@ -6,6 +6,7 @@ import spacy
 nlp = spacy.load("en", disabled=["ner", "parser"])
 import semanticscholar as sch
 import markdown2
+import jinja2
 
 def str_sim(str1, str2):
     # currently use this simple heuristic
@@ -138,8 +139,27 @@ readme_to_html = re.sub(r'<anchor id="researcher">\n(.*?)\n</anchor>', f'<anchor
 html0 = venue_cnt.head(5).to_html()
 readme_to_html = re.sub(r'<anchor id="venue">\n(.*?)\n</anchor>', f'<anchor id="venue">\n{html0}\n</anchor>', readme_to_html, flags=re.DOTALL)
 html = markdown2.markdown(readme_to_html)
+
+template = """
+<head>
+    <script type='text/javascript' charset="utf-8">{{dimensions_badge}}</script>
+    <script type='text/javascript' charset="utf-8">{{altmetrics_badge}}</script>
+</head>
+
+{{main_body}}
+"""
+
+template = jinja2.Template(template)
+
+template_vars = {
+    "main_body": html,
+    "dimensions_badge": open("static/badge.js", encoding="utf-8").read(),
+    "altmetrics_badge": open("static/embed.js", encoding="utf-8").read()
+}
+
+html_out = template.render(template_vars)
 with open("index.html", "w", encoding="utf-8") as f:
-    f.write(html)
+    f.write(html_out)
 
 print("Results (for human read)")
 print("\n--Keyword--\n")
