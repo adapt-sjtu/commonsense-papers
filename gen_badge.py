@@ -7,6 +7,7 @@ nlp = spacy.load("en_core_web_sm", disabled=["ner", "parser"])
 import semanticscholar as sch
 import markdown2
 import jinja2
+import time
 
 def str_sim(str1, str2):
     # currently use this simple heuristic
@@ -48,6 +49,7 @@ readme_lines = []
 with open("README.md", encoding="utf-8") as f:
     for lid, line in enumerate(f):
         line = line.strip()
+        line = re.sub(r" \(Citations: .*\)", "", line)
         readme_lines.append(line)
         if re.search(r"^\*\*([^\*]+)\*\*", line):   # title
             title = re.search(r"^\*\*([^\*]+)\*\*", line).group(1)
@@ -62,6 +64,7 @@ with open("README.md", encoding="utf-8") as f:
                 lid2badges[lid] = alt_badge
                 if allow_search:
                     paper_info = sch.paper(f'arxiv:{arxiv_id}', timeout=2)
+                    time.sleep(3)
                     citations = len(paper_info["citations"])
                     inf_citations = paper_info["influentialCitationCount"]
                     if inf_citations > 0:
@@ -81,6 +84,7 @@ with open("README.md", encoding="utf-8") as f:
                 acl_id = re.search(r"www.aclweb.org/anthology/(\S+).pdf", line).group(1)
                 if allow_search:
                     paper_info = sch.paper(f'ACL:{acl_id}', timeout=2)
+                    time.sleep(3)
                     citations = len(paper_info["citations"])
                     inf_citations = paper_info["influentialCitationCount"]
                     if inf_citations > 0:
@@ -100,6 +104,7 @@ with open("README.md", encoding="utf-8") as f:
                 doi = re.search(r"dl.acm.org/doi/abs/(\S+)\)?", line).group(1).strip(")")
                 if allow_search:
                     paper_info = sch.paper(f'{doi}', timeout=2)
+                    time.sleep(3)
                     if len(paper_info) == 0:
                         paper_info = special_cases(doi)
                         if len(paper_info) == 0:
@@ -176,6 +181,10 @@ kwds_cnt = pd.DataFrame(pd.Series(kwds_cnt).sort_values(ascending=False), column
 author_cnt = pd.DataFrame(pd.Series(author_cnt).sort_values(ascending=False), columns=["count"])
 venue_cnt = pd.DataFrame(pd.Series(venue_cnt).sort_values(ascending=False), columns=["count"])
 
+for lid, cite_str in lid2citation_nums.items():
+    if cite_str != "":
+        readme_lines[lid] += cite_str
+
 readme_to_md = "\n".join(readme_lines)
 readme_to_md = re.sub(r'<anchor id="cnt">(.*?)</anchor>', f'<anchor id="cnt">{paper_cnt}</anchor>', readme_to_md)
 html0 = kwds_cnt.head(TOP_KWDS).to_html()
@@ -192,9 +201,6 @@ with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme_to_md)
 
 # write to website
-for lid, cite_str in lid2citation_nums.items():
-    if cite_str != "":
-        readme_lines[lid] += cite_str
 for lid, badge_str in lid2badges.items():
     if badge_str != "":
         readme_lines[lid] += (badge_str + "<br/>")
