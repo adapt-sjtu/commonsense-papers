@@ -18,24 +18,24 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
-  - [Statistics](#statistics)
-  - [Tutorial and Survey](#tutorial-and-survey)
-  - [Resources and Evaluation](#resources-and-evaluation)
-    - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
-    - [Related Knowledge Bases](#related-knowledge-bases)
-    - [Datasets and Benchmarks](#datasets-and-benchmarks)
-    - [Evaluation and Probing](#evaluation-and-probing)
-  - [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
-  - [Applications](#applications)
-    - [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
-    - [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
-    - [Generation](#generation)
-    - [Question Answering (QA)](#question-answering-qa)
-    - [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
+- [Statistics](#statistics)
+- [Tutorial and Survey](#tutorial-and-survey)
+- [Resources and Evaluation](#resources-and-evaluation)
+- [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
+- [Related Knowledge Bases](#related-knowledge-bases)
+- [Datasets and Benchmarks](#datasets-and-benchmarks)
+- [Evaluation and Probing](#evaluation-and-probing)
+- [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
+- [Applications](#applications)
+- [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
+- [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
+- [Generation](#generation)
+- [Question Answering (QA)](#question-answering-qa)
+- [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
 
 ## Statistics
 
-Total papers in this repo: <anchor id="cnt">60</anchor> .
+Total papers in this repo: <anchor id="cnt">64</anchor> .
 
 **Research Keywords**
 
@@ -56,7 +56,15 @@ Non-stopping words in title, indicating the hot topics in this field.
     </tr>
     <tr>
       <th>graph</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>question</th>
       <td>6</td>
+    </tr>
+    <tr>
+      <th>challenge</th>
+      <td>5</td>
     </tr>
     <tr>
       <th>common</th>
@@ -67,27 +75,19 @@ Non-stopping words in title, indicating the hot topics in this field.
       <td>5</td>
     </tr>
     <tr>
-      <th>question</th>
-      <td>5</td>
-    </tr>
-    <tr>
       <th>model</th>
       <td>5</td>
     </tr>
     <tr>
-      <th>challenge</th>
-      <td>5</td>
+      <th>pre</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>text</th>
+      <td>4</td>
     </tr>
     <tr>
       <th>story</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>answering</th>
-      <td>4</td>
-    </tr>
-    <tr>
-      <th>pre</th>
       <td>4</td>
     </tr>
   </tbody>
@@ -129,11 +129,11 @@ Most active researchers in this field
       <td>5</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
-      <td>4</td>
+      <th><a href="https://www.semanticscholar.org/author/95882703">Yangqiu Song</a></th>
+      <td>5</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/1384550891">Xiang Ren</a></th>
+      <th><a href="https://www.semanticscholar.org/author/48212577">Hongming Zhang</a></th>
       <td>4</td>
     </tr>
     <tr>
@@ -141,20 +141,20 @@ Most active researchers in this field
       <td>4</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/144590225">Dan Roth</a></th>
-      <td>4</td>
-    </tr>
-    <tr>
       <th><a href="https://www.semanticscholar.org/author/1796651">Kenny Q. Zhu</a></th>
       <td>4</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/95882703">Yangqiu Song</a></th>
-      <td>3</td>
+      <th><a href="https://www.semanticscholar.org/author/1384550891">Xiang Ren</a></th>
+      <td>4</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/48212577">Hongming Zhang</a></th>
-      <td>3</td>
+      <th><a href="https://www.semanticscholar.org/author/2729164">Maarten Sap</a></th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th><a href="https://www.semanticscholar.org/author/144590225">Dan Roth</a></th>
+      <td>4</td>
     </tr>
     <tr>
       <th><a href="https://www.semanticscholar.org/author/3103343">Vered Shwartz</a></th>
@@ -165,7 +165,7 @@ Most active researchers in this field
       <td>3</td>
     </tr>
     <tr>
-      <th><a href="https://www.semanticscholar.org/author/35219984">Nicholas Lourie</a></th>
+      <th><a href="https://www.semanticscholar.org/author/150341221">Wangchunshu Zhou</a></th>
       <td>2</td>
     </tr>
   </tbody>
@@ -193,15 +193,15 @@ Most active researchers in this field
     </tr>
     <tr>
       <th>arxiv</th>
-      <td>7</td>
+      <td>8</td>
     </tr>
     <tr>
       <th>AAAI</th>
-      <td>5</td>
+      <td>6</td>
     </tr>
     <tr>
       <th>AKBC</th>
-      <td>2</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
@@ -232,27 +232,27 @@ Most active researchers in this field
 
 *Zhiyi Luo, Yuchen Sha, Kenny Q. Zhu, Seung-won Hwang, Zhongyuan Wang*
 
-**ConceptNet 5.5: an open multilingual graph of general knowledge** AAAI 2017. [paper](https://arxiv.org/pdf/1612.03975) [homepage](https://conceptnet.io/) [repo](https://github.com/commonsense/conceptnet5) [embedding(ConceptNet Numberbatch) repo](https://github.com/commonsense/conceptnet-numberbatch) (Citations: 625, 153 influential) 
+**ConceptNet 5.5: an open multilingual graph of general knowledge** AAAI 2017. [paper](https://arxiv.org/pdf/1612.03975) [homepage](https://conceptnet.io/) [repo](https://github.com/commonsense/conceptnet5) [embedding(ConceptNet Numberbatch) repo](https://github.com/commonsense/conceptnet-numberbatch) (Citations: 653, 159 influential) 
 
 *Robyn Speer, Joshua Chin, Catherine Havasi*
 
-**ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning** AAAI 2019. [paper](https://arxiv.org/pdf/1811.00146.pdf) [homepage](https://homes.cs.washington.edu/~msap/atomic/) (Citations: 156, 36 influential) 
+**ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning** AAAI 2019. [paper](https://arxiv.org/pdf/1811.00146.pdf) [homepage](https://homes.cs.washington.edu/~msap/atomic/) (Citations: 170, 41 influential) 
 
 *Maarten Sap, Ronan LeBras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi*
 
-**COMET: Commonsense Transformers for Automatic Knowledge Graph Construction** ACL 2019 [paper](https://arxiv.org/abs/1906.05317) [homepage](https://mosaickg.apps.allenai.org/) [code](https://github.com/atcbosselut/comet-commonsense) (Citations: 124, 23 influential) 
+**COMET: Commonsense Transformers for Automatic Knowledge Graph Construction** ACL 2019 [paper](https://arxiv.org/abs/1906.05317) [homepage](https://mosaickg.apps.allenai.org/) [code](https://github.com/atcbosselut/comet-commonsense) (Citations: 136, 27 influential) 
 
 *Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, Yejin Choi*
 
-**ASER: A Large-scale Eventuality Knowledge Graph.** WWW 2020 [paper](https://arxiv.org/pdf/1905.00270) [homepage](https://hkust-knowcomp.github.io/ASER/) [code](https://github.com/HKUST-KnowComp/ASER) (Citations: 14, 2 influential) 
+**ASER: A Large-scale Eventuality Knowledge Graph.** WWW 2020 [paper](https://arxiv.org/pdf/1905.00270) [homepage](https://hkust-knowcomp.github.io/ASER/) [code](https://github.com/HKUST-KnowComp/ASER) (Citations: 17, 3 influential) 
 
 *Hongming Zhang, Xin Liu, Haojie Pan, Yangqiu Song, Cane Wing-Ki Leung*
 
-**Commonsense Properties from Query Logs and Question Answering Forums** (quasimodo) CIKM 2019 [paper](https://arxiv.org/pdf/1905.10989.pdf) [homepage](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/) [code](https://github.com/Aunsiels/CSK) (Citations: 12, 1 influential) 
+**Commonsense Properties from Query Logs and Question Answering Forums** (quasimodo) CIKM 2019 [paper](https://arxiv.org/pdf/1905.10989.pdf) [homepage](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/quasimodo/) [code](https://github.com/Aunsiels/CSK) (Citations: 13, 1 influential) 
 
 *Julien Romero, Simon Razniewski, Koninika Pal, Jeff Z. Pan, Archit Sakhadeo, Gerhard Weikum*
 
-**TransOMCS: From Linguistic Graphs to Commonsense Knowledge**  IJCAI 2020 [paper](https://arxiv.org/pdf/2005.00206) [homepage](https://hkust-knowcomp.github.io/ASER/) [code](https://github.com/HKUST-KnowComp/TransOMCS) (Citations: 6, 2 influential) 
+**TransOMCS: From Linguistic Graphs to Commonsense Knowledge**  IJCAI 2020 [paper](https://arxiv.org/pdf/2005.00206) [homepage](https://hkust-knowcomp.github.io/ASER/) [code](https://github.com/HKUST-KnowComp/TransOMCS) (Citations: 10, 2 influential) 
 
 *Hongming Zhang, Daniel Khashabi, Yangqiu Song, Dan Roth*
 
@@ -260,11 +260,11 @@ Most active researchers in this field
 
 *Saadia Gabriel, Chandra Bhagavatula, Vered Shwartz, Ronan Le Bras, Maxwell Forbes, Yejin Choi*
 
-**COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs** arxiv 2020 [paper](https://arxiv.org/pdf/2010.05953.pdf) (Citations: 0) 
+**COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs** arxiv 2020 [paper](https://arxiv.org/pdf/2010.05953.pdf) (Citations: 2) 
 
 *Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi*
 
-**CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP 2020 Findings [paper](https://arxiv.org/pdf/1911.03705) [homepage](https://inklab.usc.edu/CommonGen/index.html) (Citations: 11, 2 influential) 
+**CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP 2020 Findings [paper](https://arxiv.org/pdf/1911.03705) [homepage](https://inklab.usc.edu/CommonGen/index.html) (Citations: 13, 3 influential) 
 
 *Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren*
 
@@ -290,7 +290,7 @@ Most active researchers in this field
 ### Datasets and Benchmarks
 <br/>
 
-**A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories** (Story Cloze Test) NAACL 2016 [paper](https://www.aclweb.org/anthology/N16-1098.pdf) [homepage](https://cs.rochester.edu/nlp/rocstories/) (Citations: 196, 43 influential) 
+**A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories** (Story Cloze Test) NAACL 2016 [paper](https://www.aclweb.org/anthology/N16-1098.pdf) [homepage](https://cs.rochester.edu/nlp/rocstories/) (Citations: 204, 47 influential) 
 
 *Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen*
 
@@ -298,45 +298,57 @@ Most active researchers in this field
 
 *Hannah Rashkin, Antoine Bosselut, Maarten Sap, Kevin Knight, Yejin Choi*
 
-**SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge** SemEval 2018 [paper](https://www.aclweb.org/anthology/S18-1119.pdf) (Citations: 84, 13 influential) 
+**SemEval-2018 Task 11: Machine Comprehension Using Commonsense Knowledge** SemEval 2018 [paper](https://www.aclweb.org/anthology/S18-1119.pdf) (Citations: 86, 14 influential) 
 
 *Simon Ostermann, Michael Roth, Ashutosh Modi, Stefan Thater, Manfred Pinkal*
 
-**Reasoning about Actions and State Changes by Injecting Commonsense Knowledge** (ProPara) EMNLP 2018 [paper](https://arxiv.org/pdf/1808.10012) [code](https://github.com/allenai/propara) (Citations: 41, 7 influential) 
+**Reasoning about Actions and State Changes by Injecting Commonsense Knowledge** (ProPara) EMNLP 2018 [paper](https://arxiv.org/pdf/1808.10012) [code](https://github.com/allenai/propara) (Citations: 42, 7 influential) 
 
 *Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, Antoine Bosselut, Peter Clark*
 
-**CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa) (Citations: 151, 49 influential) 
+**CommonSenseqa: A question answering challenge targeting commonsense knowledge** NAACL 2019 [paper](https://arxiv.org/abs/1811.00937) [homepage](https://www.tau-nlp.org/commonsenseqa) [code](https://github.com/jonathanherzig/commonsenseqa) (Citations: 161, 53 influential) 
 
 *Alon Talmor, Jonathan Herzig, Nicholas Lourie, Jonathan Berant*
 
-**From Recognition to Cognition: Visual Commonsense Reasoning** CVPR 2019 [paper](https://arxiv.org/pdf/1811.10830) [code](https://github.com/rowanz/r2c/) [homepage](http://visualcommonsense.com/) (Citations: 152, 33 influential) 
+**From Recognition to Cognition: Visual Commonsense Reasoning** CVPR 2019 [paper](https://arxiv.org/pdf/1811.10830) [code](https://github.com/rowanz/r2c/) [homepage](http://visualcommonsense.com/) (Citations: 160, 35 influential) 
 
 *Rowan Zellers, Yonatan Bisk, Ali Farhadi, Yejin Choi*
 
-**oLMpics -- On what Language Model Pre-training Captures** TACL 2019 [paper](https://arxiv.org/pdf/1912.13283.pdf) [code](https://github.com/alontalmor/oLMpics) [homepage](https://github.com/alontalmor/oLMpics) (Citations: 57, 7 influential) 
+**oLMpics -- On what Language Model Pre-training Captures** TACL 2019 [paper](https://arxiv.org/pdf/1912.13283.pdf) [code](https://github.com/alontalmor/oLMpics) [homepage](https://github.com/alontalmor/oLMpics) (Citations: 61, 7 influential) 
 
 *Alon Talmor, Yanai Elazar, Yoav Goldberg, Jonathan Berant*
 
-**ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/) (Citations: 56, 7 influential) 
+**ABDUCTIVE COMMONSENSE REASONING** (ART) ICLR 2020 [paper](https://arxiv.org/pdf/1908.05739) [homepage](http://abductivecommonsense.xyz/) (Citations: 64, 7 influential) 
 
 *Chandra Bhagavatula, Ronan Le Bras, Chaitanya Malaviya, Keisuke Sakaguchi, Ari Holtzman, Hannah Rashkin, Doug Downey, Scott Wen-tau Yih, Yejin Choi*
 
-**PIQA: Reasoning about Physical Commonsense in Natural Language** AAAI 2020 [paper](https://arxiv.org/pdf/1911.11641.pdf) [homepage](https://yonatanbisk.com/piqa/) (Citations: 41, 4 influential) 
+**PIQA: Reasoning about Physical Commonsense in Natural Language** AAAI 2020 [paper](https://arxiv.org/pdf/1911.11641.pdf) [homepage](https://yonatanbisk.com/piqa/) (Citations: 47, 6 influential) 
 
 *Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, Yejin Choi*
+
+**On the Role of Conceptualization in Commonsense Knowledge Graph Construction** arxiv 2020 [paper](https://arxiv.org/pdf/2003.03239) [code](https://github.com/mutiann/ccc) (Citations: 2) 
+
+*Mutian He, Yangqiu Song, Kun Xu, Dong Yu*
 
 **Reasoning about Goals, Steps, and Temporal Ordering with WikiHow** EMNLP 2020 [paper](https://arxiv.org/pdf/2009.07690) [code](https://github.com/zharry29/wikihow-goal-step) (Citations: 0) 
 
 *Qing Lyu, Li Zhang, Chris Callison-Burch*
 
-**Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00683.pdf) [homepage](https://inklab.usc.edu/NumerSense/) (Citations: 2) 
+**Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00683.pdf) [homepage](https://inklab.usc.edu/NumerSense/) (Citations: 4) 
 
 *Bill Yuchen Lin, Seyeon Lee, Rahul Khanna and Xiang Ren*
 
 **A Review of Winograd Schema Challenge Datasets and Approaches** arxiv 2020 [paper](https://arxiv.org/abs/2004.13831) (Citations: 2) 
 
 *Vid Kocijan, Thomas Lukasiewicz, Ernest Davis, Gary Marcus, Leora Morgenstern*
+
+**Integrating External Event Knowledge for Script Learning** COLING 2020 [paper](https://www.aclweb.org/anthology/2020.coling-main.27.pdf) (Citations: 0) 
+
+*Shangwen Lv, Fuqing Zhu, Songlin Hu*
+
+**Enriching Large-Scale Eventuality Knowledge Graph with Entailment Relations** AKBC 2020 [paper](https://arxiv.org/pdf/2006.11824) [code](https://github.com/HKUST-KnowComp/ASER-EEG) (Citations: 2) 
+
+*Changlong Yu, Hongming Zhang, Yangqiu Song, Wilfred Ng, Lifeng Shang*
 
 [back to table of contents](#toc)
 
@@ -346,11 +358,11 @@ Most active researchers in this field
 
 *Jonathan Gordon, Benjamin Van Durme*
 
-**Do Neural Language Representations Learn Physical Commonsense?** CogSci 2019 [paper](https://arxiv.org/pdf/1908.02899.pdf) [code](https://github.com/mbforbes/physical-commonsense) (Citations: 20, 1 influential) 
+**Do Neural Language Representations Learn Physical Commonsense?** CogSci 2019 [paper](https://arxiv.org/pdf/1908.02899.pdf) [code](https://github.com/mbforbes/physical-commonsense) (Citations: 21, 1 influential) 
 
 *Maxwell Forbes, Ari Holtzman, Yejin Choi*
 
-**How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP 2019 [paper](https://arxiv.org/pdf/1811.01778) (Citations: 15, 5 influential) 
+**How Reasonable are Common-Sense Reasoning Tasks: A Case-Study on the Winograd Schema Challenge and SWAG** EMNLP 2019 [paper](https://arxiv.org/pdf/1811.01778) (Citations: 17, 5 influential) 
 
 *Paul Trichelair, Ali Emami, Adam Trischler, Kaheer Suleman, Jackie Chi Kit Cheung*
 
@@ -358,11 +370,11 @@ Most active researchers in this field
 
 *Yohan Chalier, Simon Razniewski, Gerhard Weikum*
 
-**Does BERT Solve Commonsense Task via Commonsense Knowledge?** arxiv 2020 [paper](https://arxiv.org/pdf/2008.03945) (Citations: 2) 
+**Does BERT Solve Commonsense Task via Commonsense Knowledge?** arxiv 2020 [paper](https://arxiv.org/pdf/2008.03945) (Citations: 3) 
 
 *Leyang Cui, Sijie Cheng, Yu Wu, Yue Zhang*
 
-**WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge** ACL 2020 [paper](https://arxiv.org/pdf/2005.05763) [code](https://github.com/HKUST-KnowComp/WinoWhy) (Citations: 1) 
+**WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge** ACL 2020 [paper](https://arxiv.org/pdf/2005.05763) [code](https://github.com/HKUST-KnowComp/WinoWhy) (Citations: 2) 
 
 *Hongming Zhang, Xinran Zhao, Yangqiu Song*
 
@@ -374,19 +386,19 @@ Most active researchers in this field
 
 *Frank F. Xu, Bill Yuchen Lin, Kenny Q. Zhu*
 
-**Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.00505) (Citations: 45, 4 influential) 
+**Commonsense Knowledge Mining from Pretrained Models** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.00505) (Citations: 50, 6 influential) 
 
 *Joe Davison, Joshua Feldman, Alexander Rush*
 
-**Language Models as Knowledge Bases?** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.01066.pdf) [code](https://github.com/facebookresearch/LAMA) (Citations: 198, 34 influential) 
+**Language Models as Knowledge Bases?** EMNLP 2019 [paper](https://arxiv.org/pdf/1909.01066.pdf) [code](https://github.com/facebookresearch/LAMA) (Citations: 214, 37 influential) 
 
 *Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel*
 
-**Commonsense Knowledge Base Completion with Structural and Semantic Context** AAAI 2020 [paper](https://arxiv.org/pdf/1910.02915) [code](https://github.com/allenai/commonsense-kg-completion) (Citations: 10, 3 influential) 
+**Commonsense Knowledge Base Completion with Structural and Semantic Context** AAAI 2020 [paper](https://arxiv.org/pdf/1910.02915) [code](https://github.com/allenai/commonsense-kg-completion) (Citations: 14, 3 influential) 
 
 *Chaitanya Malaviya, Chandra Bhagavatula, Antoine Bosselut, Yejin Choi*
 
-**Temporal Common Sense Acquisition with Minimal Supervision** ACL 2020 [paper](https://arxiv.org/pdf/2005.04304.pdf) (Citations: 10) 
+**Temporal Common Sense Acquisition with Minimal Supervision** ACL 2020 [paper](https://arxiv.org/pdf/2005.04304.pdf) (Citations: 11) 
 
 *Ben Zhou, Qiang Ning, Daniel Khashabi, Dan Roth*
 
@@ -401,7 +413,7 @@ Most active researchers in this field
 ### natural language inference (NLI) and commonsense reasoning (CSR)
 <br/>
 
-**Neural natural language inference models enhanced with external knowledge** ACL 2018 [paper](https://arxiv.org/abs/1711.04289) [code](https://github.com/lukecq1231/kim) (Citations: 111, 19 influential) 
+**Neural natural language inference models enhanced with external knowledge** ACL 2018 [paper](https://arxiv.org/abs/1711.04289) [code](https://github.com/lukecq1231/kim) (Citations: 115, 21 influential) 
 
 
 *Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, Si Wei*
@@ -422,7 +434,7 @@ Most active researchers in this field
 
 *Bill Yuchen Lin, Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Xiang Ren, William W. Cohen*
 
-**Pre-training Text-to-Text Transformers for Concept-centric Common Sense** arxiv 2020 [paper](https://arxiv.org/pdf/2011.07956) [code](https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/) (Citations: 0) 
+**Pre-training Text-to-Text Transformers for Concept-centric Common Sense** arxiv 2020 [paper](https://arxiv.org/pdf/2011.07956) [code](https://anonymous.4open.science/r/6fdeed55-ec2c-4ffa-aee8-0cc3b7f5ade5/) (Citations: 2) 
 
 *Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren*
 
@@ -433,14 +445,14 @@ Most active researchers in this field
 ### Machine Reading Comprehension (MRC)
 <br/>
 
-**Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1226.pdf) [code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET) (Citations: 35, 7 influential) 
+**Enhancing Pre-Trained Language Representations with Rich Knowledge for Machine Reading Comprehension** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-1226.pdf) [code](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-KTNET) (Citations: 37, 8 influential) 
 
 *An Yang, Quan Wang, Jing Liu, Kai Liu, Yajuan Lyu, Hua Wu, Qiaoqiao She, Sujian Li*
 
 ### Generation
 <br/>
 
-**Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** ACL 2020 [paper](https://www.aclweb.org/anthology/2020.acl-main.515.pdf) [code](https://github.com/pku-orangecat/ACL2020-ConKADI) (Citations: 6, 1 influential) 
+**Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness** ACL 2020 [paper](https://www.aclweb.org/anthology/2020.acl-main.515.pdf) [code](https://github.com/pku-orangecat/ACL2020-ConKADI) (Citations: 7, 1 influential) 
 
 *Sixing Wu, Ying Li, Dawei Zhang, Yang Zhou, Zhonghai Wu*
 
@@ -452,31 +464,35 @@ Most active researchers in this field
 ### Question Answering (QA)
 <br/>
 
-**Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering** arxiv 2019 [paper](https://arxiv.org/pdf/1911.03876) (Citations: 0) 
+**Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering** arxiv 2019 [paper](https://arxiv.org/pdf/1911.03876) (Citations: 1) 
 
 *Antoine Bosselut, Yejin Choi*
 
-**Adversarial Training for Commonsense Inference** ACL 2020 RepL4NLP workshop [paper](https://arxiv.org/pdf/2005.08156) (Citations: 2) 
+**Adversarial Training for Commonsense Inference** ACL 2020 RepL4NLP workshop [paper](https://arxiv.org/pdf/2005.08156) (Citations: 3, 1 influential) 
 
 *Lis Pereira, Xiaodong Liu, Fei Cheng, Masayuki Asahara, Ichiro Kobayashi*
 
-**Unsupervised Commonsense Question Answering with Self-Talk** EMNLP 2020 [paper](https://arxiv.org/pdf/2004.05483) [code](https://github.com/vered1986/self_talk) (Citations: 17, 1 influential) 
+**Unsupervised Commonsense Question Answering with Self-Talk** EMNLP 2020 [paper](https://arxiv.org/pdf/2004.05483) [code](https://github.com/vered1986/self_talk) (Citations: 22, 1 influential) 
 
 *Vered Shwartz, Peter West, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi*
 
-**Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00646) [code](https://github.com/INK-USC/MHGRN) (Citations: 8, 2 influential) 
+**Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering** EMNLP 2020 [paper](https://arxiv.org/pdf/2005.00646) [code](https://github.com/INK-USC/MHGRN) (Citations: 9, 2 influential) 
 
 *Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, Xiang Ren*
+
+**Benchmarking Knowledge-Enhanced Commonsense Question Answering via Knowledge-to-Text Transformation** AAAI 2021 [paper](https://arxiv.org/pdf/2101.00760) (Citations: 0) 
+
+*Ning Bian, Xianpei Han, Bo Chen, Le Sun*
 
 ### Vision, Robotics, Multimodal, Grounding and Speech
 
 <br/>
 
-**Enabling Robots to Understand Incomplete Natural Language Instructions Using Commonsense Reasoning** ICRA 2020 [paper](https://arxiv.org/pdf/1904.12907) (Citations: 7) 
+**Enabling Robots to Understand Incomplete Natural Language Instructions Using Commonsense Reasoning** ICRA 2020 [paper](https://arxiv.org/pdf/1904.12907) (Citations: 10) 
 
 *Haonan Chen; Hao Tan; Alan Kuntz; Mohit Bansal; Ron Alterovitz*
 
-**Visual Commonsense R-CNN** CVPR 2020 [paper](https://arxiv.org/pdf/2002.12204) [code](https://github.com/Wangt-CN/VC-R-CNN) (Citations: 13, 3 influential) 
+**Visual Commonsense R-CNN** CVPR 2020 [paper](https://arxiv.org/pdf/2002.12204) [code](https://github.com/Wangt-CN/VC-R-CNN) (Citations: 14, 3 influential) 
 
 *Tan Wang, Jianqiang Huang, Hanwang Zhang, Qianru Sun*
 

@@ -64,7 +64,7 @@ with open("README.md", encoding="utf-8") as f:
                 lid2badges[lid] = alt_badge
                 if allow_search:
                     paper_info = sch.paper(f'arxiv:{arxiv_id}', timeout=2)
-                    time.sleep(3)
+                    time.sleep(10)
                     citations = len(paper_info["citations"])
                     inf_citations = paper_info["influentialCitationCount"]
                     if inf_citations > 0:
@@ -84,7 +84,7 @@ with open("README.md", encoding="utf-8") as f:
                 acl_id = re.search(r"www.aclweb.org/anthology/(\S+).pdf", line).group(1)
                 if allow_search:
                     paper_info = sch.paper(f'ACL:{acl_id}', timeout=2)
-                    time.sleep(3)
+                    time.sleep(10)
                     citations = len(paper_info["citations"])
                     inf_citations = paper_info["influentialCitationCount"]
                     if inf_citations > 0:
@@ -104,7 +104,7 @@ with open("README.md", encoding="utf-8") as f:
                 doi = re.search(r"dl.acm.org/doi/abs/(\S+)\)?", line).group(1).strip(")")
                 if allow_search:
                     paper_info = sch.paper(f'{doi}', timeout=2)
-                    time.sleep(3)
+                    time.sleep(10)
                     if len(paper_info) == 0:
                         paper_info = special_cases(doi)
                         if len(paper_info) == 0:
