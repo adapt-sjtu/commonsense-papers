@@ -18,20 +18,20 @@ Our list may not be complete. We will keep adding papers and improving it. [Cont
 <h2 id="toc">Table of Contents</h2>
 
 - [commonsense-papers](#commonsense-papers)
-- [Statistics](#statistics)
-- [Tutorial and Survey](#tutorial-and-survey)
-- [Resources and Evaluation](#resources-and-evaluation)
-- [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
-- [Related Knowledge Bases](#related-knowledge-bases)
-- [Datasets and Benchmarks](#datasets-and-benchmarks)
-- [Evaluation and Probing](#evaluation-and-probing)
-- [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
-- [Applications](#applications)
-- [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
-- [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
-- [Generation](#generation)
-- [Question Answering (QA)](#question-answering-qa)
-- [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
+  - [Statistics](#statistics)
+  - [Tutorial and Survey](#tutorial-and-survey)
+  - [Resources and Evaluation](#resources-and-evaluation)
+    - [Commonsense Knowledge Bases/Models](#commonsense-knowledge-basesmodels)
+    - [Related Knowledge Bases](#related-knowledge-bases)
+    - [Datasets and Benchmarks](#datasets-and-benchmarks)
+    - [Evaluation and Probing](#evaluation-and-probing)
+  - [Knowledge Mining (Knowledge Base Completion)](#knowledge-mining-knowledge-base-completion)
+  - [Applications](#applications)
+    - [natural language inference (NLI) and commonsense reasoning (CSR)](#natural-language-inference-nli-and-commonsense-reasoning-csr)
+    - [Machine Reading Comprehension (MRC)](#machine-reading-comprehension-mrc)
+    - [Generation](#generation)
+    - [Question Answering (QA)](#question-answering-qa)
+    - [Vision, Robotics, Multimodal, Grounding and Speech](#vision-robotics-multimodal-grounding-and-speech)
 
 ## Statistics
 
@@ -256,6 +256,11 @@ Most active researchers in this field
 
 *Hongming Zhang, Daniel Khashabi, Yangqiu Song, Dan Roth*
 
+
+**Enriching Large-Scale Eventuality Knowledge Graph with Entailment Relations** AKBC 2020 [paper](https://arxiv.org/pdf/2006.11824) [code](https://github.com/HKUST-KnowComp/ASER-EEG) (Citations: 2) 
+
+*Changlong Yu, Hongming Zhang, Yangqiu Song, Wilfred Ng, Lifeng Shang*
+
 **Paragraph-Level Commonsense Transformers with Recurrent Memory** (PARA-COMeT) arxiv 2020 [paper](https://arxiv.org/pdf/2010.01486) (Citations: 0) 
 
 *Saadia Gabriel, Chandra Bhagavatula, Vered Shwartz, Ronan Le Bras, Maxwell Forbes, Yejin Choi*
@@ -264,9 +269,6 @@ Most active researchers in this field
 
 *Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi*
 
-**CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP 2020 Findings [paper](https://arxiv.org/pdf/1911.03705) [homepage](https://inklab.usc.edu/CommonGen/index.html) (Citations: 13, 3 influential) 
-
-*Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren*
 
 ### Related Knowledge Bases
 <br/>
@@ -346,9 +348,9 @@ Most active researchers in this field
 
 *Shangwen Lv, Fuqing Zhu, Songlin Hu*
 
-**Enriching Large-Scale Eventuality Knowledge Graph with Entailment Relations** AKBC 2020 [paper](https://arxiv.org/pdf/2006.11824) [code](https://github.com/HKUST-KnowComp/ASER-EEG) (Citations: 2) 
+**CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning** EMNLP 2020 Findings [paper](https://arxiv.org/pdf/1911.03705) [homepage](https://inklab.usc.edu/CommonGen/index.html) (Citations: 13, 3 influential) 
 
-*Changlong Yu, Hongming Zhang, Yangqiu Song, Wilfred Ng, Lifeng Shang*
+*Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi, Xiang Ren*
 
 [back to table of contents](#toc)
 
